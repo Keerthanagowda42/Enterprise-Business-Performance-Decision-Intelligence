@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary & Log files
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,60 @@
+product_id,product_name,category,subcategory,tier,unit_cost,unit_price,is_active
+PROD-100,Compute Nodes Premium (v1.0),Cloud Infrastructure,Compute Nodes,Premium,778.62,1839.57,True
+PROD-101,Compute Nodes Core (v2.0),Cloud Infrastructure,Compute Nodes,Core,3553.82,6593.81,True
+PROD-102,Compute Nodes Core (v3.0),Cloud Infrastructure,Compute Nodes,Core,3740.4,8598.59,True
+PROD-103,Storage Solutions Premium (v1.0),Cloud Infrastructure,Storage Solutions,Premium,1418.7,3120.11,True
+PROD-104,Storage Solutions Premium (v2.0),Cloud Infrastructure,Storage Solutions,Premium,935.48,2078.38,True
+PROD-105,Storage Solutions Premium (v3.0),Cloud Infrastructure,Storage Solutions,Premium,2298.84,5377.79,True
+PROD-106,Networking Core (v1.0),Cloud Infrastructure,Networking,Core,3611.54,6451.0,True
+PROD-107,Networking Core (v2.0),Cloud Infrastructure,Networking,Core,1433.7,2514.75,True
+PROD-108,Managed Kubernetes Core (v1.0),Cloud Infrastructure,Managed Kubernetes,Core,672.53,1335.9,True
+PROD-109,Managed Kubernetes Core (v2.0),Cloud Infrastructure,Managed Kubernetes,Core,1604.72,3362.47,True
+PROD-110,Managed Kubernetes Enterprise Advantage (v3.0),Cloud Infrastructure,Managed Kubernetes,Enterprise Advantage,1172.9,2244.22,True
+PROD-111,Managed Kubernetes Premium (v4.0),Cloud Infrastructure,Managed Kubernetes,Premium,1938.9,3966.48,True
+PROD-112,ERP Modules Core (v1.0),Enterprise Software,ERP Modules,Core,2008.56,8845.14,True
+PROD-113,ERP Modules Core (v2.0),Enterprise Software,ERP Modules,Core,2154.88,9310.76,True
+PROD-114,ERP Modules Enterprise Advantage (v3.0),Enterprise Software,ERP Modules,Enterprise Advantage,217.86,1030.44,True
+PROD-115,CRM Suite Core (v1.0),Enterprise Software,CRM Suite,Core,685.23,4614.09,True
+PROD-116,CRM Suite Core (v2.0),Enterprise Software,CRM Suite,Core,2140.77,9858.9,True
+PROD-117,CRM Suite Core (v3.0),Enterprise Software,CRM Suite,Core,507.69,3953.83,True
+PROD-118,CRM Suite Premium (v4.0),Enterprise Software,CRM Suite,Premium,657.91,2771.41,True
+PROD-119,Analytics Platform Core (v1.0),Enterprise Software,Analytics Platform,Core,488.98,1972.9,True
+PROD-120,Analytics Platform Premium (v2.0),Enterprise Software,Analytics Platform,Premium,691.15,3058.27,True
+PROD-121,Analytics Platform Core (v3.0),Enterprise Software,Analytics Platform,Core,700.14,2992.08,True
+PROD-122,Security Information Core (v1.0),Enterprise Software,Security Information,Core,1162.2,5282.52,True
+PROD-123,Security Information Core (v2.0),Enterprise Software,Security Information,Core,1848.19,7849.91,True
+PROD-124,Security Information Premium (v3.0),Enterprise Software,Security Information,Premium,1194.13,4211.62,True
+PROD-125,Security Information Core (v4.0),Enterprise Software,Security Information,Core,228.97,1244.45,True
+PROD-126,Endpoint Protection Core (v1.0),Cybersecurity,Endpoint Protection,Core,558.35,2419.89,True
+PROD-127,Endpoint Protection Premium (v2.0),Cybersecurity,Endpoint Protection,Premium,1463.87,4979.06,True
+PROD-128,Zero Trust Gateway Enterprise Advantage (v1.0),Cybersecurity,Zero Trust Gateway,Enterprise Advantage,1554.88,4759.34,True
+PROD-129,Zero Trust Gateway Enterprise Advantage (v2.0),Cybersecurity,Zero Trust Gateway,Enterprise Advantage,2521.84,13800.46,True
+PROD-130,Zero Trust Gateway Core (v3.0),Cybersecurity,Zero Trust Gateway,Core,2614.65,7666.19,True
+PROD-131,SIEM & SOC Core (v1.0),Cybersecurity,SIEM & SOC,Core,1985.17,10210.03,True
+PROD-132,SIEM & SOC Core (v2.0),Cybersecurity,SIEM & SOC,Core,2354.68,9292.55,True
+PROD-133,Identity Governance Premium (v1.0),Cybersecurity,Identity Governance,Premium,1077.84,4115.58,True
+PROD-134,Identity Governance Premium (v2.0),Cybersecurity,Identity Governance,Premium,852.81,3317.94,True
+PROD-135,Identity Governance Core (v3.0),Cybersecurity,Identity Governance,Core,1556.03,4505.06,True
+PROD-136,Identity Governance Core (v4.0),Cybersecurity,Identity Governance,Core,1170.76,6098.99,True
+PROD-137,Implementation Premium (v1.0),Professional Services,Implementation,Premium,236.99,422.62,True
+PROD-138,Implementation Core (v2.0),Professional Services,Implementation,Core,641.63,1147.85,True
+PROD-139,Custom Engineering Premium (v1.0),Professional Services,Custom Engineering,Premium,325.25,657.3,True
+PROD-140,Custom Engineering Premium (v2.0),Professional Services,Custom Engineering,Premium,1416.81,2258.92,True
+PROD-141,Custom Engineering Premium (v3.0),Professional Services,Custom Engineering,Premium,1526.64,2856.05,True
+PROD-142,Custom Engineering Core (v4.0),Professional Services,Custom Engineering,Core,906.3,1665.2,True
+PROD-143,Architecture Advisory Core (v1.0),Professional Services,Architecture Advisory,Core,290.69,609.72,True
+PROD-144,Architecture Advisory Core (v2.0),Professional Services,Architecture Advisory,Core,639.29,1070.88,True
+PROD-145,Architecture Advisory Core (v3.0),Professional Services,Architecture Advisory,Core,1798.43,2968.03,True
+PROD-146,24/7 Managed Ops Premium (v1.0),Professional Services,24/7 Managed Ops,Premium,390.1,822.0,True
+PROD-147,24/7 Managed Ops Premium (v2.0),Professional Services,24/7 Managed Ops,Premium,920.98,1464.99,True
+PROD-148,24/7 Managed Ops Premium (v3.0),Professional Services,24/7 Managed Ops,Premium,1582.2,3266.56,True
+PROD-149,Data Center Servers Core (v1.0),Hardware & Appliances,Data Center Servers,Core,3347.06,4864.02,True
+PROD-150,Data Center Servers Core (v2.0),Hardware & Appliances,Data Center Servers,Core,4224.91,6621.02,True
+PROD-151,Data Center Servers Enterprise Advantage (v3.0),Hardware & Appliances,Data Center Servers,Enterprise Advantage,3829.54,5871.78,True
+PROD-152,Data Center Servers Premium (v4.0),Hardware & Appliances,Data Center Servers,Premium,4286.7,6048.34,True
+PROD-153,Edge Gateway Devices Core (v1.0),Hardware & Appliances,Edge Gateway Devices,Core,7035.81,9145.83,True
+PROD-154,Edge Gateway Devices Premium (v2.0),Hardware & Appliances,Edge Gateway Devices,Premium,4355.2,6619.22,True
+PROD-155,Backup Appliances Premium (v1.0),Hardware & Appliances,Backup Appliances,Premium,1367.58,2027.26,True
+PROD-156,Backup Appliances Enterprise Advantage (v2.0),Hardware & Appliances,Backup Appliances,Enterprise Advantage,6887.37,11026.83,True
+PROD-157,Backup Appliances Premium (v3.0),Hardware & Appliances,Backup Appliances,Premium,1643.88,2521.02,True
+PROD-158,Backup Appliances Premium (v4.0),Hardware & Appliances,Backup Appliances,Premium,5601.93,7210.65,True

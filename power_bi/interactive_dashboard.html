@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Business Performance & Decision Intelligence Cockpit</title>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #1B365D;
+            --primary-light: #2B547E;
+            --accent-green: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-red: #EF4444;
+            --bg-canvas: #0F172A;
+            --bg-card: #1E293B;
+            --text-main: #F8FAFC;
+            --text-muted: #94A3B8;
+            --border-card: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-canvas);
+            color: var(--text-main);
+            padding: 24px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-card);
+        }
+
+        .title-group h1 {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #FFFFFF;
+        }
+
+        .title-group p {
+            color: var(--text-muted);
+            font-size: 13px;
+            margin-top: 4px;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 12px;
+        }
+
+        select {
+            background-color: var(--bg-card);
+            color: var(--text-main);
+            border: 1px solid var(--border-card);
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* KPI Cards Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .kpi-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-2px);
+            border-color: #475569;
+        }
+
+        .kpi-title {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .kpi-value {
+            font-size: 26px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        .kpi-badge {
+            margin-top: 8px;
+            display: inline-flex;
+            align-items: center;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 12px;
+            width: fit-content;
+        }
+
+        .badge-success { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); }
+        .badge-warning { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); }
+
+        /* Visuals Grid */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .chart-box {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .chart-header h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #F1F5F9;
+        }
+
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th {
+            text-align: left;
+            padding: 10px 12px;
+            background-color: rgba(255, 255, 255, 0.03);
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-card);
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            color: #E2E8F0;
+        }
+
+        tr:hover td {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+
+        .status-dot {
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+        }
+        .dot-green { background-color: var(--accent-green); }
+        .dot-amber { background-color: var(--accent-amber); }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title-group">
+            <h1>Enterprise Business Performance & Decision Intelligence</h1>
+            <p>Power BI Executive Dashboard Simulation | Production Analytics Engine (2022 - 2024)</p>
+        </div>
+        <div class="filter-group">
+            <select id="regionFilter" onchange="updateDashboard()">
+                <option value="All">All Geographic Regions</option>
+                <option value="North America">North America</option>
+                <option value="Europe">Europe</option>
+                <option value="Asia-Pacific">Asia-Pacific</option>
+                <option value="Latin America">Latin America</option>
+            </select>
+            <select id="channelFilter" onchange="updateDashboard()">
+                <option value="All">All Sales Channels</option>
+                <option value="Direct Sales">Direct Sales</option>
+                <option value="Partner / Reseller">Partner / Reseller</option>
+                <option value="Digital Portal">Digital Portal</option>
+                <option value="Inside Sales">Inside Sales</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Top KPI Cards -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-title">Total Net Revenue</div>
+            <div class="kpi-value" id="kpiNetRev">$170.20M</div>
+            <div class="kpi-badge badge-success">↑ +14.8% YoY</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Gross Profit</div>
+            <div class="kpi-value" id="kpiGrossProfit">$93.64M</div>
+            <div class="kpi-badge badge-success">55.0% Gross Margin</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Operating EBITDA</div>
+            <div class="kpi-value" id="kpiEbitda">$63.32M</div>
+            <div class="kpi-badge badge-success">37.2% EBITDA Margin</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Total Orders Fulfilled</div>
+            <div class="kpi-value" id="kpiOrders">15,000</div>
+            <div class="kpi-badge badge-success">88.5% On-Time SLA</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Average Order Value (AOV)</div>
+            <div class="kpi-value" id="kpiAov">$11,346</div>
+            <div class="kpi-badge badge-warning">Target: $10,500</div>
+        </div>
+    </div>
+
+    <!-- Charts Row 1 -->
+    <div class="charts-grid">
+        <div class="chart-box">
+            <div class="chart-header">
+                <h3>Revenue & Gross Profit Trajectory (36-Month Run-Rate)</h3>
+                <span style="font-size: 12px; color: var(--text-muted);">Quarterly Aggregation ($M)</span>
+            </div>
+            <canvas id="revenueTrendChart" height="110"></canvas>
+        </div>
+        <div class="chart-box">
+            <div class="chart-header">
+                <h3>Revenue by Sales Channel</h3>
+                <span style="font-size: 12px; color: var(--text-muted);">Share %</span>
+            </div>
+            <canvas id="channelShareChart" height="110"></canvas>
+        </div>
+    </div>
+
+    <!-- Charts Row 2 -->
+    <div class="charts-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="chart-box">
+            <div class="chart-header">
+                <h3>Product Category Profitability & Margin Matrix</h3>
+            </div>
+            <canvas id="categoryChart" height="130"></canvas>
+        </div>
+        <div class="chart-box">
+            <div class="chart-header">
+                <h3>Executive Summary: Regional Performance Matrix</h3>
+            </div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Region</th>
+                            <th>Active Customers</th>
+                            <th>Net Revenue</th>
+                            <th>Gross Profit</th>
+                            <th>Margin %</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="regionalTableBody">
+                        <tr>
+                            <td><strong>North America</strong></td>
+                            <td>452</td>
+                            <td>$76.59M</td>
+                            <td>$42.12M</td>
+                            <td>55.0%</td>
+                            <td><span class="status-dot dot-green"></span>Core Leader</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Europe</strong></td>
+                            <td>304</td>
+                            <td>$51.06M</td>
+                            <td>$28.08M</td>
+                            <td>55.0%</td>
+                            <td><span class="status-dot dot-green"></span>High Growth</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Asia-Pacific</strong></td>
+                            <td>178</td>
+                            <td>$30.64M</td>
+                            <td>$16.85M</td>
+                            <td>55.0%</td>
+                            <td><span class="status-dot dot-green"></span>Expanding</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Latin America</strong></td>
+                            <td>66</td>
+                            <td>$11.91M</td>
+                            <td>$6.59M</td>
+                            <td>55.3%</td>
+                            <td><span class="status-dot dot-amber"></span>Emerging</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Chart 1: Revenue Trajectory
+        const quarters = ['Q1 22', 'Q2 22', 'Q3 22', 'Q4 22', 'Q1 23', 'Q2 23', 'Q3 23', 'Q4 23', 'Q1 24', 'Q2 24', 'Q3 24', 'Q4 24'];
+        const netRevData = [11.8, 12.4, 13.1, 14.9, 13.5, 14.1, 14.8, 16.5, 14.9, 15.6, 16.4, 17.2];
+        const profitData = [6.5, 6.8, 7.2, 8.2, 7.4, 7.8, 8.1, 9.1, 8.2, 8.6, 9.0, 9.5];
+
+        const ctxTrend = document.getElementById('revenueTrendChart').getContext('2d');
+        const trendChart = new Chart(ctxTrend, {
+            type: 'line',
+            data: {
+                labels: quarters,
+                datasets: [
+                    {
+                        label: 'Net Revenue ($M)',
+                        data: netRevData,
+                        borderColor: '#38BDF8',
+                        backgroundColor: 'rgba(56, 189, 248, 0.1)',
+                        fill: true,
+                        tension: 0.35,
+                        borderWidth: 2.5,
+                        pointRadius: 4
+                    },
+                    {
+                        label: 'Gross Profit ($M)',
+                        data: profitData,
+                        borderColor: '#10B981',
+                        backgroundColor: 'rgba(16, 185, 129, 0.15)',
+                        fill: true,
+                        tension: 0.35,
+                        borderWidth: 2,
+                        pointRadius: 4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { labels: { color: '#94A3B8', font: { size: 11 } } }
+                },
+                scales: {
+                    y: {
+                        grid: { color: 'rgba(255,255,255,0.06)' },
+                        ticks: { color: '#94A3B8', callback: v => '$' + v + 'M' }
+                    },
+                    x: {
+                        grid: { color: 'rgba(255,255,255,0.06)' },
+                        ticks: { color: '#94A3B8' }
+                    }
+                }
+            }
+        });
+
+        // Chart 2: Channel Share Donut
+        const ctxChannel = document.getElementById('channelShareChart').getContext('2d');
+        new Chart(ctxChannel, {
+            type: 'doughnut',
+            data: {
+                labels: ['Direct Sales', 'Partner / Reseller', 'Digital Portal', 'Inside Sales'],
+                datasets: [{
+                    data: [45, 30, 15, 10],
+                    backgroundColor: ['#38BDF8', '#818CF8', '#10B981', '#F59E0B'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: '#94A3B8', boxWidth: 12, font: { size: 10 } } }
+                },
+                cutout: '72%'
+            }
+        });
+
+        // Chart 3: Category Breakdown
+        const ctxCat = document.getElementById('categoryChart').getContext('2d');
+        new Chart(ctxCat, {
+            type: 'bar',
+            data: {
+                labels: ['Enterprise Software', 'Cybersecurity', 'Cloud Infrastructure', 'Prof Services', 'Hardware'],
+                datasets: [
+                    {
+                        label: 'Revenue ($M)',
+                        data: [45.2, 38.6, 36.4, 28.1, 21.9],
+                        backgroundColor: '#6366F1',
+                        borderRadius: 6
+                    },
+                    {
+                        label: 'Gross Profit ($M)',
+                        data: [36.2, 28.9, 20.0, 12.6, 5.9],
+                        backgroundColor: '#10B981',
+                        borderRadius: 6
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { labels: { color: '#94A3B8', font: { size: 11 } } }
+                },
+                scales: {
+                    y: {
+                        grid: { color: 'rgba(255,255,255,0.06)' },
+                        ticks: { color: '#94A3B8', callback: v => '$' + v + 'M' }
+                    },
+                    x: {
+                        grid: { color: 'transparent' },
+                        ticks: { color: '#94A3B8', font: { size: 10 } }
+                    }
+                }
+            }
+        });
+
+        function updateDashboard() {
+            // Interactive filter reactivity demo
+            const reg = document.getElementById('regionFilter').value;
+            let mult = 1.0;
+            if (reg === 'North America') mult = 0.45;
+            else if (reg === 'Europe') mult = 0.30;
+            else if (reg === 'Asia-Pacific') mult = 0.18;
+            else if (reg === 'Latin America') mult = 0.07;
+
+            document.getElementById('kpiNetRev').innerText = '$' + (170.20 * mult).toFixed(2) + 'M';
+            document.getElementById('kpiGrossProfit').innerText = '$' + (93.64 * mult).toFixed(2) + 'M';
+            document.getElementById('kpiEbitda').innerText = '$' + (63.32 * mult).toFixed(2) + 'M';
+            document.getElementById('kpiOrders').innerText = Math.round(15000 * mult).toLocaleString();
+        }
+    </script>
+</body>
+</html>
+

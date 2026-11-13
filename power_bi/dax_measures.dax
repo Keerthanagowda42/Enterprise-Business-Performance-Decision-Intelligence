@@ -1,0 +1,197 @@
+// =====================================================================
+// PROJECT 1: ENTERPRISE BUSINESS PERFORMANCE & DECISION INTELLIGENCE
+// Production DAX Measures Library for Power BI
+// =====================================================================
+
+// =====================================================================
+// 1. CORE REVENUE & VOLUME MEASURES
+// =====================================================================
+
+Total Orders = 
+DISTINCTCOUNT(fact_sales_orders[order_id])
+
+Total Units Sold = 
+SUM(fact_sales_orders[quantity])
+
+Gross Revenue = 
+SUM(fact_sales_orders[gross_revenue])
+
+Total Discounts Given = 
+SUM(fact_sales_orders[discount_amount])
+
+Net Revenue = 
+SUM(fact_sales_orders[net_revenue])
+
+Average Discount Rate % = 
+DIVIDE([Total Discounts Given], [Gross Revenue], 0)
+
+Average Order Value (AOV) = 
+DIVIDE([Net Revenue], [Total Orders], 0)
+
+Average Selling Price (ASP) = 
+DIVIDE([Net Revenue], [Total Units Sold], 0)
+
+
+// =====================================================================
+// 2. PROFITABILITY & FINANCIAL PERFORMANCE MEASURES
+// =====================================================================
+
+Total COGS = 
+SUM(fact_sales_orders[cogs])
+
+Gross Profit = 
+[Net Revenue] - [Total COGS]
+
+Gross Margin % = 
+DIVIDE([Gross Profit], [Net Revenue], 0)
+
+Total Operational Expenses = 
+SUM(fact_operational_costs[actual_cost])
+
+Budgeted Operational Expenses = 
+SUM(fact_operational_costs[budgeted_cost])
+
+OpEx Budget Variance = 
+[Total Operational Expenses] - [Budgeted Operational Expenses]
+
+OpEx Variance % = 
+DIVIDE([OpEx Budget Variance], [Budgeted Operational Expenses], 0)
+
+Operating Income (EBITDA) = 
+[Gross Profit] - [Total Operational Expenses]
+
+Operating Margin % = 
+DIVIDE([Operating Income (EBITDA)], [Net Revenue], 0)
+
+
+// =====================================================================
+// 3. TIME INTELLIGENCE & PERIOD-OVER-PERIOD MEASURES
+// =====================================================================
+
+Net Revenue YTD = 
+TOTALYTD([Net Revenue], dim_date[date_key])
+
+Net Revenue PY (Prior Year) = 
+CALCULATE([Net Revenue], SAMEPERIODLASTYEAR(dim_date[date_key]))
+
+Net Revenue YoY Growth $ = 
+[Net Revenue] - [Net Revenue PY]
+
+Net Revenue YoY Growth % = 
+DIVIDE([Net Revenue YoY Growth $], [Net Revenue PY], 0)
+
+Gross Profit PY = 
+CALCULATE([Gross Profit], SAMEPERIODLASTYEAR(dim_date[date_key]))
+
+Gross Profit YoY Growth % = 
+DIVIDE([Gross Profit] - [Gross Profit PY], [Gross Profit PY], 0)
+
+Net Revenue MoM Growth % = 
+VAR CurrentMonthRev = [Net Revenue]
+VAR PrevMonthRev = CALCULATE([Net Revenue], DATEADD(dim_date[date_key], -1, MONTH))
+RETURN
+DIVIDE(CurrentMonthRev - PrevMonthRev, PrevMonthRev, 0)
+
+Rolling 3-Month Net Revenue = 
+CALCULATE(
+    [Net Revenue],
+    DATESINPERIOD(dim_date[date_key], MAX(dim_date[date_key]), -3, MONTH)
+)
+
+Rolling 12-Month Net Revenue (LTM) = 
+CALCULATE(
+    [Net Revenue],
+    DATESINPERIOD(dim_date[date_key], MAX(dim_date[date_key]), -12, MONTH)
+)
+
+
+// =====================================================================
+// 4. CUSTOMER SEGMENTATION & RFM INTELLIGENCE
+// =====================================================================
+
+Active Customers Count = 
+DISTINCTCOUNT(fact_sales_orders[customer_id])
+
+Revenue Per Active Customer = 
+DIVIDE([Net Revenue], [Active Customers Count], 0)
+
+New Customers Acquired = 
+CALCULATE(
+    DISTINCTCOUNT(dim_customers[customer_id]),
+    USERELATIONSHIP(dim_customers[acquisition_date], dim_date[date_key])
+)
+
+Customer Retention Rate % = 
+VAR RepeatCustomers = 
+    COUNTROWS(
+        FILTER(
+            VALUES(dim_customers[customer_id]),
+            CALCULATE(DISTINCTCOUNT(fact_sales_orders[order_id])) > 1
+        )
+    )
+RETURN
+DIVIDE(RepeatCustomers, [Active Customers Count], 0)
+
+
+// =====================================================================
+// 5. SUPPLY CHAIN & OPERATIONAL PERFORMANCE
+// =====================================================================
+
+Average Fulfillment Lead Time (Days) = 
+AVERAGE(fact_sales_orders[lead_time_days])
+
+On-Time Orders Count = 
+CALCULATE(
+    COUNTROWS(fact_sales_orders),
+    fact_sales_orders[delivery_status] = "Delivered On-Time"
+)
+
+On-Time Delivery Rate % = 
+DIVIDE([On-Time Orders Count], [Total Orders], 0)
+
+Delayed Orders Count = 
+CALCULATE(
+    COUNTROWS(fact_sales_orders),
+    fact_sales_orders[delivery_status] = "Delivered Delayed"
+)
+
+Delayed Order Rate % = 
+DIVIDE([Delayed Orders Count], [Total Orders], 0)
+
+Order Cancellation Rate % = 
+VAR CancelledCount = 
+    CALCULATE(
+        COUNTROWS(fact_sales_orders),
+        fact_sales_orders[delivery_status] = "Cancelled"
+    )
+RETURN
+DIVIDE(CancelledCount, [Total Orders], 0)
+
+
+// =====================================================================
+// 6. DYNAMIC WHAT-IF SIMULATION & KPI STATUS COLORING
+// =====================================================================
+
+Simulated Price Adjustment % = 
+SELECTEDVALUE('Price_Scenario_Parameter'[Value], 0.0)
+
+Simulated Discount Adjustment % = 
+SELECTEDVALUE('Discount_Scenario_Parameter'[Value], 0.0)
+
+Simulated Net Revenue = 
+[Gross Revenue] * (1 + [Simulated Price Adjustment %]) * (1 - ([Average Discount Rate %] + [Simulated Discount Adjustment %]))
+
+Simulated Operating Income = 
+([Simulated Net Revenue] - [Total COGS]) - [Total Operational Expenses]
+
+KPI Gross Margin Status Color = 
+SWITCH(
+    TRUE(),
+    [Gross Margin %] >= 0.55, "#10B981", // Emerald Green
+    [Gross Margin %] >= 0.50, "#F59E0B", // Amber Warning
+    "#EF4444"                            // Crimson Alert
+)
+
+KPI OpEx Budget Alert Status = 
+IF([OpEx Budget Variance] > 0, "Over Budget (Alert)", "Within Budget (Normal)")
+

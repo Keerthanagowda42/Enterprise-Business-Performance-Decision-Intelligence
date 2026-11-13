@@ -1,0 +1,1001 @@
+customer_id,company_name,segment,industry,region,credit_tier,acquisition_date,account_manager
+CUST-1000,HEAL-1000 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2020-05-01,Rep-19
+CUST-1001,FINA-1001 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2020-05-10,Rep-22
+CUST-1002,RETA-1002 Corp,Small Business,Retail & Consumer,North America,Tier 1 (AAA),2022-08-13,Rep-21
+CUST-1003,TECH-1003 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2021-04-19,Rep-10
+CUST-1004,TECH-1004 Corp,Small Business,Technology,North America,Tier 1 (AAA),2022-08-15,Rep-19
+CUST-1005,FINA-1005 Corp,Small Business,Financial Services,North America,Tier 3 (A),2021-10-08,Rep-21
+CUST-1006,RETA-1006 Corp,Enterprise,Retail & Consumer,Europe,Tier 2 (AA),2022-02-15,Rep-21
+CUST-1007,HEAL-1007 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2022-02-14,Rep-15
+CUST-1008,TECH-1008 Corp,Mid-Market,Technology,North America,Tier 3 (A),2022-10-18,Rep-06
+CUST-1009,TECH-1009 Corp,Mid-Market,Technology,North America,Tier 3 (A),2020-06-10,Rep-10
+CUST-1010,RETA-1010 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2023-06-29,Rep-08
+CUST-1011,FINA-1011 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2020-08-04,Rep-13
+CUST-1012,TECH-1012 Corp,Small Business,Technology,North America,Tier 4 (BBB),2023-09-29,Rep-01
+CUST-1013,MANU-1013 Corp,Enterprise,Manufacturing,North America,Tier 2 (AA),2021-02-22,Rep-01
+CUST-1014,HEAL-1014 Corp,Small Business,Healthcare,Europe,Tier 3 (A),2020-07-19,Rep-08
+CUST-1015,FINA-1015 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2022-03-15,Rep-03
+CUST-1016,HEAL-1016 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2021-10-04,Rep-01
+CUST-1017,TECH-1017 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2020-07-25,Rep-15
+CUST-1018,TECH-1018 Corp,Mid-Market,Technology,North America,Tier 3 (A),2023-06-18,Rep-20
+CUST-1019,TECH-1019 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2023-04-09,Rep-04
+CUST-1020,HEAL-1020 Corp,Mid-Market,Healthcare,Latin America,Tier 3 (A),2021-11-12,Rep-13
+CUST-1021,FINA-1021 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2023-09-25,Rep-11
+CUST-1022,FINA-1022 Corp,Enterprise,Financial Services,North America,Tier 3 (A),2023-07-30,Rep-20
+CUST-1023,TECH-1023 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2020-11-13,Rep-05
+CUST-1024,TECH-1024 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2023-06-10,Rep-20
+CUST-1025,RETA-1025 Corp,Small Business,Retail & Consumer,North America,Tier 1 (AAA),2023-02-10,Rep-05
+CUST-1026,HEAL-1026 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2022-05-04,Rep-05
+CUST-1027,HEAL-1027 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2021-12-30,Rep-06
+CUST-1028,MANU-1028 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-02-05,Rep-06
+CUST-1029,HEAL-1029 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2022-01-21,Rep-16
+CUST-1030,TECH-1030 Corp,Mid-Market,Technology,Asia-Pacific,Tier 1 (AAA),2021-10-21,Rep-04
+CUST-1031,TECH-1031 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2021-05-03,Rep-01
+CUST-1032,MANU-1032 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2021-04-17,Rep-18
+CUST-1033,TECH-1033 Corp,Small Business,Technology,Asia-Pacific,Tier 2 (AA),2020-12-11,Rep-16
+CUST-1034,TECH-1034 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2021-03-28,Rep-05
+CUST-1035,TECH-1035 Corp,Enterprise,Technology,Asia-Pacific,Tier 2 (AA),2020-07-26,Rep-03
+CUST-1036,MANU-1036 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 3 (A),2020-04-13,Rep-20
+CUST-1037,RETA-1037 Corp,Mid-Market,Retail & Consumer,Europe,Tier 4 (BBB),2022-07-02,Rep-14
+CUST-1038,HEAL-1038 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2020-06-09,Rep-04
+CUST-1039,HEAL-1039 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2023-03-04,Rep-03
+CUST-1040,TECH-1040 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2023-10-30,Rep-22
+CUST-1041,FINA-1041 Corp,Small Business,Financial Services,North America,Tier 3 (A),2023-07-30,Rep-02
+CUST-1042,HEAL-1042 Corp,Mid-Market,Healthcare,North America,Tier 3 (A),2022-10-16,Rep-16
+CUST-1043,HEAL-1043 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2023-05-28,Rep-14
+CUST-1044,TECH-1044 Corp,Mid-Market,Technology,Asia-Pacific,Tier 3 (A),2021-05-11,Rep-14
+CUST-1045,MANU-1045 Corp,Small Business,Manufacturing,Latin America,Tier 1 (AAA),2022-09-07,Rep-23
+CUST-1046,FINA-1046 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2021-07-19,Rep-03
+CUST-1047,HEAL-1047 Corp,Enterprise,Healthcare,Europe,Tier 4 (BBB),2022-08-19,Rep-10
+CUST-1048,HEAL-1048 Corp,Small Business,Healthcare,Asia-Pacific,Tier 2 (AA),2023-04-14,Rep-07
+CUST-1049,MANU-1049 Corp,Small Business,Manufacturing,North America,Tier 3 (A),2021-06-08,Rep-07
+CUST-1050,HEAL-1050 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2021-02-03,Rep-14
+CUST-1051,FINA-1051 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-12-27,Rep-22
+CUST-1052,RETA-1052 Corp,Enterprise,Retail & Consumer,North America,Tier 3 (A),2021-07-23,Rep-22
+CUST-1053,FINA-1053 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2021-09-04,Rep-01
+CUST-1054,RETA-1054 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 2 (AA),2022-02-12,Rep-13
+CUST-1055,HEAL-1055 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2021-10-17,Rep-13
+CUST-1056,TECH-1056 Corp,Small Business,Technology,Latin America,Tier 1 (AAA),2022-12-17,Rep-23
+CUST-1057,TECH-1057 Corp,Enterprise,Technology,North America,Tier 2 (AA),2022-10-09,Rep-01
+CUST-1058,TECH-1058 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-07-13,Rep-08
+CUST-1059,FINA-1059 Corp,Mid-Market,Financial Services,Latin America,Tier 2 (AA),2021-08-03,Rep-22
+CUST-1060,HEAL-1060 Corp,Enterprise,Healthcare,Europe,Tier 1 (AAA),2023-01-14,Rep-14
+CUST-1061,FINA-1061 Corp,Enterprise,Financial Services,North America,Tier 4 (BBB),2021-03-28,Rep-12
+CUST-1062,MANU-1062 Corp,Small Business,Manufacturing,North America,Tier 1 (AAA),2023-07-01,Rep-05
+CUST-1063,HEAL-1063 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2023-05-31,Rep-10
+CUST-1064,MANU-1064 Corp,Mid-Market,Manufacturing,Europe,Tier 2 (AA),2021-05-30,Rep-16
+CUST-1065,TECH-1065 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2022-05-01,Rep-24
+CUST-1066,TECH-1066 Corp,Mid-Market,Technology,Europe,Tier 3 (A),2023-07-15,Rep-03
+CUST-1067,TECH-1067 Corp,Mid-Market,Technology,Asia-Pacific,Tier 1 (AAA),2020-01-12,Rep-14
+CUST-1068,HEAL-1068 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2022-02-14,Rep-10
+CUST-1069,TECH-1069 Corp,Small Business,Technology,North America,Tier 1 (AAA),2023-01-03,Rep-24
+CUST-1070,TECH-1070 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2021-04-01,Rep-24
+CUST-1071,FINA-1071 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2020-04-05,Rep-24
+CUST-1072,TECH-1072 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2020-10-05,Rep-03
+CUST-1073,FINA-1073 Corp,Small Business,Financial Services,North America,Tier 3 (A),2023-09-27,Rep-13
+CUST-1074,TECH-1074 Corp,Mid-Market,Technology,Asia-Pacific,Tier 3 (A),2020-03-16,Rep-09
+CUST-1075,RETA-1075 Corp,Small Business,Retail & Consumer,North America,Tier 2 (AA),2023-10-22,Rep-16
+CUST-1076,FINA-1076 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2023-03-20,Rep-16
+CUST-1077,FINA-1077 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 1 (AAA),2023-05-31,Rep-05
+CUST-1078,HEAL-1078 Corp,Mid-Market,Healthcare,Europe,Tier 4 (BBB),2022-10-29,Rep-10
+CUST-1079,MANU-1079 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 2 (AA),2023-04-06,Rep-10
+CUST-1080,TECH-1080 Corp,Small Business,Technology,North America,Tier 2 (AA),2020-12-04,Rep-08
+CUST-1081,MANU-1081 Corp,Mid-Market,Manufacturing,North America,Tier 4 (BBB),2020-08-04,Rep-13
+CUST-1082,TECH-1082 Corp,Mid-Market,Technology,Asia-Pacific,Tier 3 (A),2023-04-20,Rep-07
+CUST-1083,TECH-1083 Corp,Small Business,Technology,North America,Tier 2 (AA),2021-10-14,Rep-18
+CUST-1084,TECH-1084 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2023-10-16,Rep-07
+CUST-1085,RETA-1085 Corp,Mid-Market,Retail & Consumer,Europe,Tier 1 (AAA),2023-10-24,Rep-24
+CUST-1086,MANU-1086 Corp,Mid-Market,Manufacturing,Europe,Tier 4 (BBB),2020-06-21,Rep-15
+CUST-1087,RETA-1087 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2023-06-04,Rep-19
+CUST-1088,HEAL-1088 Corp,Mid-Market,Healthcare,Latin America,Tier 2 (AA),2023-10-28,Rep-22
+CUST-1089,TECH-1089 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2022-01-05,Rep-16
+CUST-1090,HEAL-1090 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 1 (AAA),2023-10-03,Rep-04
+CUST-1091,HEAL-1091 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2020-02-10,Rep-04
+CUST-1092,FINA-1092 Corp,Mid-Market,Financial Services,Latin America,Tier 1 (AAA),2021-04-05,Rep-16
+CUST-1093,MANU-1093 Corp,Small Business,Manufacturing,North America,Tier 4 (BBB),2020-09-12,Rep-05
+CUST-1094,RETA-1094 Corp,Mid-Market,Retail & Consumer,Europe,Tier 3 (A),2022-05-26,Rep-05
+CUST-1095,MANU-1095 Corp,Mid-Market,Manufacturing,North America,Tier 4 (BBB),2020-06-25,Rep-11
+CUST-1096,RETA-1096 Corp,Mid-Market,Retail & Consumer,Europe,Tier 3 (A),2020-04-14,Rep-03
+CUST-1097,TECH-1097 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-12-09,Rep-05
+CUST-1098,MANU-1098 Corp,Mid-Market,Manufacturing,Latin America,Tier 4 (BBB),2020-03-23,Rep-17
+CUST-1099,TECH-1099 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2021-03-24,Rep-17
+CUST-1100,TECH-1100 Corp,Enterprise,Technology,Asia-Pacific,Tier 1 (AAA),2020-09-06,Rep-02
+CUST-1101,FINA-1101 Corp,Small Business,Financial Services,Europe,Tier 3 (A),2020-08-23,Rep-05
+CUST-1102,HEAL-1102 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2022-07-07,Rep-15
+CUST-1103,MANU-1103 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 3 (A),2022-02-02,Rep-02
+CUST-1104,FINA-1104 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2021-03-22,Rep-02
+CUST-1105,MANU-1105 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-01-28,Rep-10
+CUST-1106,TECH-1106 Corp,Small Business,Technology,Asia-Pacific,Tier 3 (A),2023-09-15,Rep-17
+CUST-1107,RETA-1107 Corp,Mid-Market,Retail & Consumer,North America,Tier 2 (AA),2020-07-23,Rep-11
+CUST-1108,FINA-1108 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2022-04-27,Rep-11
+CUST-1109,TECH-1109 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2023-05-03,Rep-03
+CUST-1110,HEAL-1110 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2022-10-25,Rep-18
+CUST-1111,TECH-1111 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2020-08-20,Rep-12
+CUST-1112,FINA-1112 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2023-01-01,Rep-15
+CUST-1113,MANU-1113 Corp,Enterprise,Manufacturing,Europe,Tier 3 (A),2020-12-02,Rep-04
+CUST-1114,TECH-1114 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2021-09-30,Rep-24
+CUST-1115,FINA-1115 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2020-12-30,Rep-14
+CUST-1116,HEAL-1116 Corp,Enterprise,Healthcare,North America,Tier 3 (A),2020-12-28,Rep-15
+CUST-1117,FINA-1117 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2023-04-30,Rep-23
+CUST-1118,FINA-1118 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2020-05-05,Rep-12
+CUST-1119,FINA-1119 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2020-08-20,Rep-13
+CUST-1120,HEAL-1120 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2023-10-24,Rep-12
+CUST-1121,FINA-1121 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-11-10,Rep-13
+CUST-1122,TECH-1122 Corp,Small Business,Technology,North America,Tier 1 (AAA),2021-09-15,Rep-04
+CUST-1123,MANU-1123 Corp,Enterprise,Manufacturing,Asia-Pacific,Tier 1 (AAA),2023-03-06,Rep-23
+CUST-1124,HEAL-1124 Corp,Enterprise,Healthcare,North America,Tier 4 (BBB),2020-01-06,Rep-02
+CUST-1125,TECH-1125 Corp,Small Business,Technology,Europe,Tier 4 (BBB),2021-05-18,Rep-06
+CUST-1126,HEAL-1126 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2020-06-21,Rep-12
+CUST-1127,HEAL-1127 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2021-06-15,Rep-17
+CUST-1128,MANU-1128 Corp,Small Business,Manufacturing,Europe,Tier 1 (AAA),2020-05-18,Rep-04
+CUST-1129,FINA-1129 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-09-17,Rep-23
+CUST-1130,HEAL-1130 Corp,Enterprise,Healthcare,Europe,Tier 1 (AAA),2023-09-04,Rep-05
+CUST-1131,FINA-1131 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2023-01-23,Rep-17
+CUST-1132,FINA-1132 Corp,Small Business,Financial Services,Asia-Pacific,Tier 4 (BBB),2023-03-06,Rep-02
+CUST-1133,HEAL-1133 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2023-10-04,Rep-08
+CUST-1134,MANU-1134 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 3 (A),2023-04-03,Rep-05
+CUST-1135,RETA-1135 Corp,Mid-Market,Retail & Consumer,North America,Tier 1 (AAA),2022-12-01,Rep-18
+CUST-1136,FINA-1136 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 2 (AA),2021-02-25,Rep-01
+CUST-1137,TECH-1137 Corp,Mid-Market,Technology,Europe,Tier 3 (A),2021-05-17,Rep-02
+CUST-1138,HEAL-1138 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2021-08-01,Rep-07
+CUST-1139,TECH-1139 Corp,Mid-Market,Technology,Europe,Tier 3 (A),2023-08-05,Rep-20
+CUST-1140,RETA-1140 Corp,Mid-Market,Retail & Consumer,Europe,Tier 3 (A),2022-10-17,Rep-05
+CUST-1141,TECH-1141 Corp,Enterprise,Technology,Asia-Pacific,Tier 2 (AA),2021-05-31,Rep-10
+CUST-1142,TECH-1142 Corp,Small Business,Technology,North America,Tier 3 (A),2020-08-03,Rep-20
+CUST-1143,TECH-1143 Corp,Small Business,Technology,North America,Tier 1 (AAA),2022-04-23,Rep-13
+CUST-1144,HEAL-1144 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2023-07-30,Rep-05
+CUST-1145,FINA-1145 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2020-01-23,Rep-15
+CUST-1146,RETA-1146 Corp,Mid-Market,Retail & Consumer,North America,Tier 1 (AAA),2023-05-18,Rep-01
+CUST-1147,RETA-1147 Corp,Small Business,Retail & Consumer,North America,Tier 2 (AA),2023-09-09,Rep-05
+CUST-1148,TECH-1148 Corp,Small Business,Technology,Asia-Pacific,Tier 2 (AA),2022-10-10,Rep-19
+CUST-1149,RETA-1149 Corp,Small Business,Retail & Consumer,Europe,Tier 2 (AA),2022-03-24,Rep-05
+CUST-1150,TECH-1150 Corp,Small Business,Technology,Latin America,Tier 3 (A),2021-07-20,Rep-19
+CUST-1151,TECH-1151 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2020-11-08,Rep-21
+CUST-1152,FINA-1152 Corp,Enterprise,Financial Services,Europe,Tier 3 (A),2021-01-20,Rep-07
+CUST-1153,FINA-1153 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2022-05-25,Rep-19
+CUST-1154,TECH-1154 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2023-03-30,Rep-17
+CUST-1155,TECH-1155 Corp,Mid-Market,Technology,Asia-Pacific,Tier 1 (AAA),2022-12-08,Rep-07
+CUST-1156,HEAL-1156 Corp,Mid-Market,Healthcare,Latin America,Tier 3 (A),2022-12-22,Rep-08
+CUST-1157,TECH-1157 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2022-08-09,Rep-19
+CUST-1158,HEAL-1158 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2023-03-13,Rep-08
+CUST-1159,HEAL-1159 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2021-05-16,Rep-17
+CUST-1160,TECH-1160 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-07-13,Rep-23
+CUST-1161,TECH-1161 Corp,Mid-Market,Technology,Latin America,Tier 2 (AA),2020-03-27,Rep-23
+CUST-1162,HEAL-1162 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2022-01-28,Rep-03
+CUST-1163,TECH-1163 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2023-06-16,Rep-05
+CUST-1164,TECH-1164 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-04-05,Rep-24
+CUST-1165,MANU-1165 Corp,Small Business,Manufacturing,Europe,Tier 1 (AAA),2020-06-13,Rep-22
+CUST-1166,MANU-1166 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-02-13,Rep-01
+CUST-1167,TECH-1167 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-11-30,Rep-18
+CUST-1168,FINA-1168 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-12-07,Rep-23
+CUST-1169,FINA-1169 Corp,Small Business,Financial Services,North America,Tier 3 (A),2022-06-23,Rep-02
+CUST-1170,RETA-1170 Corp,Enterprise,Retail & Consumer,Asia-Pacific,Tier 3 (A),2021-08-15,Rep-10
+CUST-1171,FINA-1171 Corp,Small Business,Financial Services,Europe,Tier 1 (AAA),2023-02-12,Rep-17
+CUST-1172,HEAL-1172 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2023-07-25,Rep-11
+CUST-1173,RETA-1173 Corp,Enterprise,Retail & Consumer,North America,Tier 2 (AA),2022-03-15,Rep-11
+CUST-1174,MANU-1174 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 2 (AA),2020-02-03,Rep-17
+CUST-1175,HEAL-1175 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2020-12-07,Rep-21
+CUST-1176,HEAL-1176 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2022-03-31,Rep-07
+CUST-1177,FINA-1177 Corp,Small Business,Financial Services,Europe,Tier 3 (A),2020-05-09,Rep-22
+CUST-1178,HEAL-1178 Corp,Enterprise,Healthcare,Europe,Tier 1 (AAA),2020-05-28,Rep-11
+CUST-1179,HEAL-1179 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2023-06-04,Rep-22
+CUST-1180,RETA-1180 Corp,Mid-Market,Retail & Consumer,Europe,Tier 2 (AA),2023-08-05,Rep-04
+CUST-1181,MANU-1181 Corp,Enterprise,Manufacturing,Europe,Tier 3 (A),2020-12-30,Rep-11
+CUST-1182,TECH-1182 Corp,Small Business,Technology,North America,Tier 1 (AAA),2022-11-06,Rep-01
+CUST-1183,FINA-1183 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2020-05-10,Rep-18
+CUST-1184,TECH-1184 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2020-10-01,Rep-05
+CUST-1185,TECH-1185 Corp,Small Business,Technology,North America,Tier 4 (BBB),2020-01-12,Rep-16
+CUST-1186,MANU-1186 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 2 (AA),2021-01-08,Rep-16
+CUST-1187,FINA-1187 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-05-03,Rep-13
+CUST-1188,HEAL-1188 Corp,Enterprise,Healthcare,Europe,Tier 4 (BBB),2022-09-07,Rep-22
+CUST-1189,HEAL-1189 Corp,Enterprise,Healthcare,Asia-Pacific,Tier 1 (AAA),2021-11-18,Rep-08
+CUST-1190,FINA-1190 Corp,Small Business,Financial Services,Latin America,Tier 3 (A),2022-07-23,Rep-03
+CUST-1191,TECH-1191 Corp,Small Business,Technology,North America,Tier 2 (AA),2022-09-21,Rep-12
+CUST-1192,HEAL-1192 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2020-07-01,Rep-23
+CUST-1193,FINA-1193 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2022-07-09,Rep-13
+CUST-1194,HEAL-1194 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2020-11-06,Rep-03
+CUST-1195,MANU-1195 Corp,Enterprise,Manufacturing,Asia-Pacific,Tier 2 (AA),2022-11-28,Rep-14
+CUST-1196,FINA-1196 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2021-11-27,Rep-16
+CUST-1197,MANU-1197 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 2 (AA),2023-10-14,Rep-20
+CUST-1198,TECH-1198 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2020-11-19,Rep-18
+CUST-1199,TECH-1199 Corp,Enterprise,Technology,North America,Tier 4 (BBB),2021-08-07,Rep-15
+CUST-1200,TECH-1200 Corp,Mid-Market,Technology,North America,Tier 4 (BBB),2020-03-01,Rep-05
+CUST-1201,MANU-1201 Corp,Mid-Market,Manufacturing,North America,Tier 4 (BBB),2020-01-11,Rep-13
+CUST-1202,TECH-1202 Corp,Small Business,Technology,Latin America,Tier 2 (AA),2023-08-26,Rep-21
+CUST-1203,TECH-1203 Corp,Enterprise,Technology,Asia-Pacific,Tier 1 (AAA),2022-07-25,Rep-17
+CUST-1204,MANU-1204 Corp,Small Business,Manufacturing,Latin America,Tier 2 (AA),2021-12-27,Rep-17
+CUST-1205,FINA-1205 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2021-02-22,Rep-18
+CUST-1206,MANU-1206 Corp,Small Business,Manufacturing,Europe,Tier 2 (AA),2022-02-19,Rep-24
+CUST-1207,MANU-1207 Corp,Enterprise,Manufacturing,Europe,Tier 3 (A),2023-07-14,Rep-09
+CUST-1208,FINA-1208 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2022-01-07,Rep-12
+CUST-1209,RETA-1209 Corp,Mid-Market,Retail & Consumer,North America,Tier 2 (AA),2023-06-03,Rep-24
+CUST-1210,HEAL-1210 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2022-07-02,Rep-06
+CUST-1211,MANU-1211 Corp,Enterprise,Manufacturing,Latin America,Tier 4 (BBB),2023-02-11,Rep-08
+CUST-1212,RETA-1212 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 2 (AA),2022-11-29,Rep-02
+CUST-1213,HEAL-1213 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2020-12-01,Rep-08
+CUST-1214,TECH-1214 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2021-07-10,Rep-21
+CUST-1215,MANU-1215 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2021-07-10,Rep-19
+CUST-1216,MANU-1216 Corp,Enterprise,Manufacturing,Asia-Pacific,Tier 1 (AAA),2020-03-22,Rep-04
+CUST-1217,TECH-1217 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2022-12-05,Rep-17
+CUST-1218,FINA-1218 Corp,Enterprise,Financial Services,Europe,Tier 1 (AAA),2020-12-30,Rep-03
+CUST-1219,TECH-1219 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2022-09-20,Rep-15
+CUST-1220,RETA-1220 Corp,Enterprise,Retail & Consumer,Latin America,Tier 2 (AA),2023-06-19,Rep-04
+CUST-1221,TECH-1221 Corp,Small Business,Technology,North America,Tier 2 (AA),2021-12-05,Rep-22
+CUST-1222,MANU-1222 Corp,Enterprise,Manufacturing,Europe,Tier 4 (BBB),2020-10-11,Rep-12
+CUST-1223,MANU-1223 Corp,Enterprise,Manufacturing,Europe,Tier 1 (AAA),2022-06-25,Rep-01
+CUST-1224,MANU-1224 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2022-01-07,Rep-04
+CUST-1225,TECH-1225 Corp,Mid-Market,Technology,North America,Tier 3 (A),2020-06-05,Rep-11
+CUST-1226,HEAL-1226 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2022-04-28,Rep-12
+CUST-1227,RETA-1227 Corp,Small Business,Retail & Consumer,North America,Tier 3 (A),2020-03-24,Rep-06
+CUST-1228,FINA-1228 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2022-07-22,Rep-15
+CUST-1229,MANU-1229 Corp,Enterprise,Manufacturing,Europe,Tier 2 (AA),2023-07-18,Rep-12
+CUST-1230,TECH-1230 Corp,Small Business,Technology,Europe,Tier 3 (A),2023-08-25,Rep-08
+CUST-1231,MANU-1231 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 2 (AA),2022-08-17,Rep-12
+CUST-1232,HEAL-1232 Corp,Small Business,Healthcare,North America,Tier 3 (A),2023-03-22,Rep-14
+CUST-1233,TECH-1233 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2022-10-13,Rep-22
+CUST-1234,MANU-1234 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2021-12-21,Rep-08
+CUST-1235,FINA-1235 Corp,Mid-Market,Financial Services,Europe,Tier 4 (BBB),2020-06-14,Rep-11
+CUST-1236,MANU-1236 Corp,Small Business,Manufacturing,Europe,Tier 1 (AAA),2020-08-01,Rep-19
+CUST-1237,RETA-1237 Corp,Enterprise,Retail & Consumer,North America,Tier 1 (AAA),2021-08-14,Rep-22
+CUST-1238,HEAL-1238 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2020-01-02,Rep-01
+CUST-1239,TECH-1239 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-07-06,Rep-07
+CUST-1240,HEAL-1240 Corp,Mid-Market,Healthcare,North America,Tier 3 (A),2022-09-20,Rep-10
+CUST-1241,HEAL-1241 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2020-01-09,Rep-06
+CUST-1242,TECH-1242 Corp,Mid-Market,Technology,Europe,Tier 4 (BBB),2023-09-03,Rep-20
+CUST-1243,TECH-1243 Corp,Small Business,Technology,North America,Tier 3 (A),2022-06-18,Rep-06
+CUST-1244,HEAL-1244 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 2 (AA),2022-05-23,Rep-14
+CUST-1245,TECH-1245 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2023-08-17,Rep-19
+CUST-1246,FINA-1246 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2020-11-04,Rep-23
+CUST-1247,TECH-1247 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-07-02,Rep-24
+CUST-1248,TECH-1248 Corp,Mid-Market,Technology,Latin America,Tier 2 (AA),2020-04-02,Rep-22
+CUST-1249,FINA-1249 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2020-06-07,Rep-24
+CUST-1250,FINA-1250 Corp,Mid-Market,Financial Services,North America,Tier 4 (BBB),2020-05-31,Rep-18
+CUST-1251,FINA-1251 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 2 (AA),2021-07-31,Rep-15
+CUST-1252,TECH-1252 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2023-06-23,Rep-12
+CUST-1253,MANU-1253 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-03-04,Rep-08
+CUST-1254,HEAL-1254 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2020-01-02,Rep-23
+CUST-1255,FINA-1255 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2021-01-15,Rep-15
+CUST-1256,HEAL-1256 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2023-03-14,Rep-02
+CUST-1257,HEAL-1257 Corp,Enterprise,Healthcare,Asia-Pacific,Tier 2 (AA),2020-10-27,Rep-23
+CUST-1258,TECH-1258 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2022-04-23,Rep-09
+CUST-1259,HEAL-1259 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2021-07-29,Rep-22
+CUST-1260,HEAL-1260 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2020-06-13,Rep-17
+CUST-1261,HEAL-1261 Corp,Small Business,Healthcare,Asia-Pacific,Tier 3 (A),2021-09-11,Rep-20
+CUST-1262,FINA-1262 Corp,Enterprise,Financial Services,North America,Tier 4 (BBB),2022-03-07,Rep-01
+CUST-1263,RETA-1263 Corp,Mid-Market,Retail & Consumer,North America,Tier 1 (AAA),2022-10-05,Rep-19
+CUST-1264,RETA-1264 Corp,Enterprise,Retail & Consumer,North America,Tier 4 (BBB),2020-05-05,Rep-02
+CUST-1265,HEAL-1265 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2021-03-02,Rep-18
+CUST-1266,TECH-1266 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-11-03,Rep-16
+CUST-1267,TECH-1267 Corp,Small Business,Technology,Latin America,Tier 1 (AAA),2022-10-11,Rep-08
+CUST-1268,RETA-1268 Corp,Enterprise,Retail & Consumer,North America,Tier 1 (AAA),2023-05-01,Rep-23
+CUST-1269,TECH-1269 Corp,Mid-Market,Technology,Latin America,Tier 1 (AAA),2020-10-29,Rep-08
+CUST-1270,MANU-1270 Corp,Enterprise,Manufacturing,Asia-Pacific,Tier 3 (A),2022-10-21,Rep-19
+CUST-1271,HEAL-1271 Corp,Small Business,Healthcare,Latin America,Tier 2 (AA),2023-05-28,Rep-02
+CUST-1272,RETA-1272 Corp,Enterprise,Retail & Consumer,Latin America,Tier 2 (AA),2021-11-18,Rep-13
+CUST-1273,HEAL-1273 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 3 (A),2023-01-30,Rep-14
+CUST-1274,RETA-1274 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 3 (A),2023-07-26,Rep-19
+CUST-1275,TECH-1275 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2021-12-25,Rep-15
+CUST-1276,HEAL-1276 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2021-08-27,Rep-01
+CUST-1277,TECH-1277 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-05-16,Rep-08
+CUST-1278,FINA-1278 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2020-11-23,Rep-16
+CUST-1279,MANU-1279 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 1 (AAA),2023-03-02,Rep-02
+CUST-1280,FINA-1280 Corp,Enterprise,Financial Services,Europe,Tier 1 (AAA),2020-12-08,Rep-06
+CUST-1281,FINA-1281 Corp,Small Business,Financial Services,Europe,Tier 3 (A),2021-09-10,Rep-23
+CUST-1282,RETA-1282 Corp,Enterprise,Retail & Consumer,Asia-Pacific,Tier 2 (AA),2020-02-20,Rep-15
+CUST-1283,TECH-1283 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-08-21,Rep-16
+CUST-1284,RETA-1284 Corp,Mid-Market,Retail & Consumer,Europe,Tier 2 (AA),2023-03-13,Rep-10
+CUST-1285,TECH-1285 Corp,Small Business,Technology,Europe,Tier 2 (AA),2023-09-30,Rep-11
+CUST-1286,MANU-1286 Corp,Small Business,Manufacturing,North America,Tier 1 (AAA),2022-08-16,Rep-24
+CUST-1287,RETA-1287 Corp,Enterprise,Retail & Consumer,Asia-Pacific,Tier 2 (AA),2023-04-10,Rep-24
+CUST-1288,TECH-1288 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2023-07-24,Rep-22
+CUST-1289,HEAL-1289 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2021-11-12,Rep-08
+CUST-1290,TECH-1290 Corp,Mid-Market,Technology,Asia-Pacific,Tier 1 (AAA),2021-10-25,Rep-19
+CUST-1291,MANU-1291 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 3 (A),2022-09-19,Rep-23
+CUST-1292,HEAL-1292 Corp,Enterprise,Healthcare,Europe,Tier 3 (A),2021-09-22,Rep-21
+CUST-1293,HEAL-1293 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2023-03-29,Rep-11
+CUST-1294,HEAL-1294 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2022-02-08,Rep-03
+CUST-1295,FINA-1295 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2021-04-03,Rep-07
+CUST-1296,HEAL-1296 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2020-10-14,Rep-07
+CUST-1297,HEAL-1297 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 2 (AA),2020-03-13,Rep-08
+CUST-1298,HEAL-1298 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2022-04-07,Rep-02
+CUST-1299,HEAL-1299 Corp,Enterprise,Healthcare,Europe,Tier 1 (AAA),2020-03-07,Rep-22
+CUST-1300,TECH-1300 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2023-04-10,Rep-02
+CUST-1301,FINA-1301 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2021-10-23,Rep-12
+CUST-1302,HEAL-1302 Corp,Small Business,Healthcare,North America,Tier 3 (A),2020-11-06,Rep-16
+CUST-1303,MANU-1303 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-09-06,Rep-03
+CUST-1304,FINA-1304 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 1 (AAA),2023-06-25,Rep-12
+CUST-1305,TECH-1305 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-03-31,Rep-07
+CUST-1306,FINA-1306 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-05-23,Rep-14
+CUST-1307,FINA-1307 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2022-02-08,Rep-09
+CUST-1308,TECH-1308 Corp,Small Business,Technology,Europe,Tier 4 (BBB),2020-11-06,Rep-06
+CUST-1309,RETA-1309 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 3 (A),2021-05-04,Rep-12
+CUST-1310,MANU-1310 Corp,Enterprise,Manufacturing,Latin America,Tier 1 (AAA),2023-05-24,Rep-10
+CUST-1311,MANU-1311 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 1 (AAA),2020-03-13,Rep-15
+CUST-1312,HEAL-1312 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2020-09-22,Rep-02
+CUST-1313,RETA-1313 Corp,Small Business,Retail & Consumer,North America,Tier 2 (AA),2023-02-07,Rep-16
+CUST-1314,FINA-1314 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 1 (AAA),2022-11-14,Rep-13
+CUST-1315,TECH-1315 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2023-04-11,Rep-12
+CUST-1316,FINA-1316 Corp,Mid-Market,Financial Services,Latin America,Tier 2 (AA),2022-09-15,Rep-06
+CUST-1317,HEAL-1317 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2020-10-13,Rep-19
+CUST-1318,TECH-1318 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2021-11-20,Rep-24
+CUST-1319,TECH-1319 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2023-03-25,Rep-14
+CUST-1320,TECH-1320 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2022-02-23,Rep-05
+CUST-1321,HEAL-1321 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2023-06-08,Rep-18
+CUST-1322,FINA-1322 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2021-06-02,Rep-22
+CUST-1323,MANU-1323 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 1 (AAA),2021-01-20,Rep-21
+CUST-1324,MANU-1324 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-06-19,Rep-01
+CUST-1325,HEAL-1325 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2020-06-21,Rep-04
+CUST-1326,HEAL-1326 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2020-07-01,Rep-21
+CUST-1327,FINA-1327 Corp,Enterprise,Financial Services,Europe,Tier 2 (AA),2022-01-13,Rep-03
+CUST-1328,FINA-1328 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2021-01-31,Rep-17
+CUST-1329,FINA-1329 Corp,Small Business,Financial Services,Latin America,Tier 2 (AA),2021-07-25,Rep-16
+CUST-1330,TECH-1330 Corp,Small Business,Technology,North America,Tier 3 (A),2022-02-27,Rep-11
+CUST-1331,FINA-1331 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2022-08-13,Rep-23
+CUST-1332,HEAL-1332 Corp,Enterprise,Healthcare,Europe,Tier 2 (AA),2020-04-10,Rep-08
+CUST-1333,HEAL-1333 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2021-02-11,Rep-03
+CUST-1334,HEAL-1334 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2020-12-31,Rep-04
+CUST-1335,HEAL-1335 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2021-03-17,Rep-05
+CUST-1336,TECH-1336 Corp,Small Business,Technology,Europe,Tier 2 (AA),2022-09-18,Rep-16
+CUST-1337,MANU-1337 Corp,Mid-Market,Manufacturing,Latin America,Tier 2 (AA),2022-08-19,Rep-15
+CUST-1338,HEAL-1338 Corp,Enterprise,Healthcare,North America,Tier 3 (A),2020-06-17,Rep-23
+CUST-1339,MANU-1339 Corp,Small Business,Manufacturing,North America,Tier 1 (AAA),2022-02-08,Rep-22
+CUST-1340,FINA-1340 Corp,Small Business,Financial Services,Europe,Tier 2 (AA),2023-06-03,Rep-11
+CUST-1341,HEAL-1341 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2021-05-02,Rep-14
+CUST-1342,RETA-1342 Corp,Mid-Market,Retail & Consumer,North America,Tier 1 (AAA),2023-04-10,Rep-19
+CUST-1343,TECH-1343 Corp,Mid-Market,Technology,Asia-Pacific,Tier 3 (A),2020-02-08,Rep-17
+CUST-1344,HEAL-1344 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2020-10-28,Rep-08
+CUST-1345,TECH-1345 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2021-10-23,Rep-11
+CUST-1346,HEAL-1346 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2020-07-31,Rep-15
+CUST-1347,FINA-1347 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2022-12-03,Rep-13
+CUST-1348,HEAL-1348 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2020-01-19,Rep-23
+CUST-1349,HEAL-1349 Corp,Small Business,Healthcare,Europe,Tier 3 (A),2023-02-08,Rep-08
+CUST-1350,TECH-1350 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2021-03-24,Rep-04
+CUST-1351,MANU-1351 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-10-30,Rep-21
+CUST-1352,TECH-1352 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2022-11-02,Rep-09
+CUST-1353,MANU-1353 Corp,Enterprise,Manufacturing,Europe,Tier 1 (AAA),2020-07-27,Rep-14
+CUST-1354,FINA-1354 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2022-10-11,Rep-06
+CUST-1355,FINA-1355 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2022-11-09,Rep-10
+CUST-1356,FINA-1356 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 2 (AA),2022-05-20,Rep-21
+CUST-1357,TECH-1357 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2020-09-29,Rep-23
+CUST-1358,HEAL-1358 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 1 (AAA),2021-11-28,Rep-23
+CUST-1359,FINA-1359 Corp,Enterprise,Financial Services,Europe,Tier 2 (AA),2020-06-07,Rep-19
+CUST-1360,TECH-1360 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2021-06-25,Rep-06
+CUST-1361,FINA-1361 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2023-10-05,Rep-23
+CUST-1362,FINA-1362 Corp,Enterprise,Financial Services,Europe,Tier 1 (AAA),2021-04-20,Rep-15
+CUST-1363,HEAL-1363 Corp,Small Business,Healthcare,Latin America,Tier 2 (AA),2023-07-07,Rep-20
+CUST-1364,FINA-1364 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 3 (A),2020-03-15,Rep-07
+CUST-1365,TECH-1365 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2020-02-19,Rep-03
+CUST-1366,MANU-1366 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2021-07-16,Rep-21
+CUST-1367,TECH-1367 Corp,Small Business,Technology,North America,Tier 1 (AAA),2020-02-18,Rep-21
+CUST-1368,TECH-1368 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2022-01-12,Rep-07
+CUST-1369,HEAL-1369 Corp,Mid-Market,Healthcare,Europe,Tier 3 (A),2023-04-20,Rep-14
+CUST-1370,MANU-1370 Corp,Enterprise,Manufacturing,Europe,Tier 2 (AA),2021-07-01,Rep-21
+CUST-1371,TECH-1371 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2020-06-11,Rep-23
+CUST-1372,TECH-1372 Corp,Enterprise,Technology,Asia-Pacific,Tier 3 (A),2020-07-23,Rep-06
+CUST-1373,TECH-1373 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-09-06,Rep-11
+CUST-1374,FINA-1374 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2021-09-30,Rep-15
+CUST-1375,RETA-1375 Corp,Mid-Market,Retail & Consumer,North America,Tier 2 (AA),2020-07-17,Rep-21
+CUST-1376,TECH-1376 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2020-11-09,Rep-21
+CUST-1377,TECH-1377 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2021-01-05,Rep-21
+CUST-1378,TECH-1378 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2022-06-13,Rep-10
+CUST-1379,FINA-1379 Corp,Mid-Market,Financial Services,North America,Tier 4 (BBB),2021-07-26,Rep-02
+CUST-1380,MANU-1380 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2022-08-23,Rep-14
+CUST-1381,TECH-1381 Corp,Mid-Market,Technology,Europe,Tier 4 (BBB),2023-02-09,Rep-02
+CUST-1382,FINA-1382 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2021-08-10,Rep-24
+CUST-1383,FINA-1383 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 4 (BBB),2020-08-30,Rep-17
+CUST-1384,TECH-1384 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-06-02,Rep-22
+CUST-1385,HEAL-1385 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2022-02-20,Rep-09
+CUST-1386,HEAL-1386 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2023-07-01,Rep-03
+CUST-1387,FINA-1387 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-08-23,Rep-18
+CUST-1388,TECH-1388 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-01-08,Rep-24
+CUST-1389,TECH-1389 Corp,Small Business,Technology,North America,Tier 1 (AAA),2022-06-23,Rep-15
+CUST-1390,FINA-1390 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2023-07-15,Rep-02
+CUST-1391,RETA-1391 Corp,Small Business,Retail & Consumer,North America,Tier 1 (AAA),2020-02-09,Rep-06
+CUST-1392,TECH-1392 Corp,Enterprise,Technology,North America,Tier 3 (A),2021-11-18,Rep-11
+CUST-1393,RETA-1393 Corp,Small Business,Retail & Consumer,North America,Tier 3 (A),2021-10-10,Rep-12
+CUST-1394,RETA-1394 Corp,Mid-Market,Retail & Consumer,Europe,Tier 2 (AA),2022-10-09,Rep-21
+CUST-1395,RETA-1395 Corp,Mid-Market,Retail & Consumer,Europe,Tier 4 (BBB),2020-09-03,Rep-05
+CUST-1396,HEAL-1396 Corp,Mid-Market,Healthcare,Europe,Tier 3 (A),2022-10-18,Rep-05
+CUST-1397,TECH-1397 Corp,Mid-Market,Technology,Latin America,Tier 3 (A),2021-10-07,Rep-19
+CUST-1398,RETA-1398 Corp,Small Business,Retail & Consumer,Asia-Pacific,Tier 2 (AA),2021-04-01,Rep-21
+CUST-1399,MANU-1399 Corp,Small Business,Manufacturing,North America,Tier 2 (AA),2023-07-24,Rep-24
+CUST-1400,FINA-1400 Corp,Small Business,Financial Services,North America,Tier 3 (A),2020-11-02,Rep-15
+CUST-1401,FINA-1401 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-09-29,Rep-05
+CUST-1402,TECH-1402 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2022-06-11,Rep-16
+CUST-1403,TECH-1403 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2021-03-29,Rep-09
+CUST-1404,TECH-1404 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2021-05-30,Rep-15
+CUST-1405,TECH-1405 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2023-08-18,Rep-20
+CUST-1406,MANU-1406 Corp,Small Business,Manufacturing,Latin America,Tier 3 (A),2022-04-24,Rep-15
+CUST-1407,HEAL-1407 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2023-10-09,Rep-24
+CUST-1408,FINA-1408 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2021-08-18,Rep-17
+CUST-1409,RETA-1409 Corp,Small Business,Retail & Consumer,North America,Tier 1 (AAA),2020-03-23,Rep-14
+CUST-1410,MANU-1410 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 1 (AAA),2023-09-12,Rep-14
+CUST-1411,MANU-1411 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2022-07-31,Rep-20
+CUST-1412,FINA-1412 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2020-10-12,Rep-09
+CUST-1413,FINA-1413 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2022-09-27,Rep-14
+CUST-1414,RETA-1414 Corp,Enterprise,Retail & Consumer,Europe,Tier 3 (A),2023-02-24,Rep-23
+CUST-1415,TECH-1415 Corp,Small Business,Technology,Europe,Tier 2 (AA),2022-02-17,Rep-14
+CUST-1416,TECH-1416 Corp,Mid-Market,Technology,Asia-Pacific,Tier 3 (A),2022-10-09,Rep-09
+CUST-1417,MANU-1417 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 3 (A),2022-12-24,Rep-08
+CUST-1418,FINA-1418 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2021-07-12,Rep-15
+CUST-1419,FINA-1419 Corp,Small Business,Financial Services,Europe,Tier 2 (AA),2021-05-19,Rep-19
+CUST-1420,TECH-1420 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-08-01,Rep-22
+CUST-1421,FINA-1421 Corp,Mid-Market,Financial Services,North America,Tier 4 (BBB),2023-01-15,Rep-06
+CUST-1422,FINA-1422 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2021-12-30,Rep-08
+CUST-1423,FINA-1423 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2022-05-16,Rep-08
+CUST-1424,FINA-1424 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2021-12-01,Rep-06
+CUST-1425,MANU-1425 Corp,Enterprise,Manufacturing,Asia-Pacific,Tier 3 (A),2022-05-14,Rep-07
+CUST-1426,FINA-1426 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-01-16,Rep-09
+CUST-1427,HEAL-1427 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2022-03-29,Rep-07
+CUST-1428,HEAL-1428 Corp,Enterprise,Healthcare,Europe,Tier 1 (AAA),2022-06-25,Rep-13
+CUST-1429,FINA-1429 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 2 (AA),2021-08-06,Rep-08
+CUST-1430,HEAL-1430 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2021-08-24,Rep-07
+CUST-1431,MANU-1431 Corp,Small Business,Manufacturing,Latin America,Tier 1 (AAA),2022-10-01,Rep-15
+CUST-1432,HEAL-1432 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2022-09-16,Rep-01
+CUST-1433,TECH-1433 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2023-01-12,Rep-17
+CUST-1434,FINA-1434 Corp,Enterprise,Financial Services,North America,Tier 4 (BBB),2022-08-16,Rep-09
+CUST-1435,HEAL-1435 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2021-07-16,Rep-22
+CUST-1436,TECH-1436 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-09-20,Rep-02
+CUST-1437,RETA-1437 Corp,Small Business,Retail & Consumer,Europe,Tier 3 (A),2020-09-24,Rep-03
+CUST-1438,FINA-1438 Corp,Enterprise,Financial Services,North America,Tier 3 (A),2021-07-27,Rep-17
+CUST-1439,MANU-1439 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2020-10-03,Rep-22
+CUST-1440,TECH-1440 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2022-11-19,Rep-12
+CUST-1441,MANU-1441 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 3 (A),2022-12-22,Rep-23
+CUST-1442,FINA-1442 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2021-11-09,Rep-02
+CUST-1443,TECH-1443 Corp,Mid-Market,Technology,North America,Tier 3 (A),2023-05-01,Rep-15
+CUST-1444,HEAL-1444 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2022-10-03,Rep-11
+CUST-1445,HEAL-1445 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2023-05-12,Rep-06
+CUST-1446,TECH-1446 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2023-10-31,Rep-24
+CUST-1447,FINA-1447 Corp,Small Business,Financial Services,Europe,Tier 1 (AAA),2020-12-28,Rep-10
+CUST-1448,TECH-1448 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2021-04-29,Rep-05
+CUST-1449,MANU-1449 Corp,Mid-Market,Manufacturing,Latin America,Tier 2 (AA),2020-07-19,Rep-17
+CUST-1450,TECH-1450 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-10-04,Rep-22
+CUST-1451,HEAL-1451 Corp,Enterprise,Healthcare,Europe,Tier 2 (AA),2022-03-31,Rep-23
+CUST-1452,TECH-1452 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-12-06,Rep-14
+CUST-1453,MANU-1453 Corp,Enterprise,Manufacturing,Europe,Tier 2 (AA),2023-07-27,Rep-03
+CUST-1454,TECH-1454 Corp,Small Business,Technology,North America,Tier 3 (A),2023-01-27,Rep-18
+CUST-1455,HEAL-1455 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2021-06-03,Rep-05
+CUST-1456,TECH-1456 Corp,Mid-Market,Technology,Europe,Tier 4 (BBB),2023-02-14,Rep-02
+CUST-1457,MANU-1457 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2021-01-29,Rep-07
+CUST-1458,TECH-1458 Corp,Small Business,Technology,North America,Tier 3 (A),2022-06-01,Rep-19
+CUST-1459,MANU-1459 Corp,Enterprise,Manufacturing,Europe,Tier 2 (AA),2021-11-25,Rep-04
+CUST-1460,MANU-1460 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2021-12-15,Rep-19
+CUST-1461,RETA-1461 Corp,Small Business,Retail & Consumer,Europe,Tier 2 (AA),2022-02-10,Rep-07
+CUST-1462,TECH-1462 Corp,Enterprise,Technology,Latin America,Tier 3 (A),2020-12-02,Rep-17
+CUST-1463,FINA-1463 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2022-04-16,Rep-13
+CUST-1464,HEAL-1464 Corp,Enterprise,Healthcare,Latin America,Tier 3 (A),2020-01-22,Rep-22
+CUST-1465,TECH-1465 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2023-05-12,Rep-02
+CUST-1466,FINA-1466 Corp,Small Business,Financial Services,North America,Tier 3 (A),2023-04-01,Rep-19
+CUST-1467,TECH-1467 Corp,Small Business,Technology,North America,Tier 1 (AAA),2021-08-01,Rep-01
+CUST-1468,TECH-1468 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-10-09,Rep-05
+CUST-1469,MANU-1469 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 2 (AA),2021-12-03,Rep-08
+CUST-1470,TECH-1470 Corp,Small Business,Technology,North America,Tier 2 (AA),2023-10-13,Rep-11
+CUST-1471,MANU-1471 Corp,Enterprise,Manufacturing,North America,Tier 4 (BBB),2023-08-06,Rep-13
+CUST-1472,TECH-1472 Corp,Mid-Market,Technology,Latin America,Tier 1 (AAA),2021-01-09,Rep-02
+CUST-1473,TECH-1473 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2022-11-02,Rep-24
+CUST-1474,TECH-1474 Corp,Enterprise,Technology,North America,Tier 3 (A),2022-08-31,Rep-24
+CUST-1475,FINA-1475 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2020-11-16,Rep-17
+CUST-1476,HEAL-1476 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2023-08-29,Rep-22
+CUST-1477,MANU-1477 Corp,Small Business,Manufacturing,North America,Tier 2 (AA),2021-10-21,Rep-18
+CUST-1478,MANU-1478 Corp,Small Business,Manufacturing,North America,Tier 3 (A),2022-11-11,Rep-04
+CUST-1479,TECH-1479 Corp,Small Business,Technology,North America,Tier 2 (AA),2023-08-06,Rep-18
+CUST-1480,TECH-1480 Corp,Small Business,Technology,Asia-Pacific,Tier 2 (AA),2022-09-17,Rep-17
+CUST-1481,TECH-1481 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2023-09-28,Rep-24
+CUST-1482,TECH-1482 Corp,Enterprise,Technology,Asia-Pacific,Tier 2 (AA),2023-03-26,Rep-11
+CUST-1483,HEAL-1483 Corp,Enterprise,Healthcare,Asia-Pacific,Tier 3 (A),2021-09-03,Rep-18
+CUST-1484,RETA-1484 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2021-11-21,Rep-05
+CUST-1485,HEAL-1485 Corp,Enterprise,Healthcare,North America,Tier 4 (BBB),2021-09-23,Rep-23
+CUST-1486,HEAL-1486 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2022-07-17,Rep-24
+CUST-1487,HEAL-1487 Corp,Small Business,Healthcare,Asia-Pacific,Tier 1 (AAA),2021-06-16,Rep-20
+CUST-1488,TECH-1488 Corp,Mid-Market,Technology,Asia-Pacific,Tier 1 (AAA),2023-08-20,Rep-07
+CUST-1489,FINA-1489 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2020-08-14,Rep-12
+CUST-1490,TECH-1490 Corp,Small Business,Technology,North America,Tier 2 (AA),2023-01-28,Rep-02
+CUST-1491,FINA-1491 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2023-01-28,Rep-13
+CUST-1492,FINA-1492 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 4 (BBB),2020-09-30,Rep-03
+CUST-1493,FINA-1493 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2022-12-24,Rep-04
+CUST-1494,HEAL-1494 Corp,Enterprise,Healthcare,North America,Tier 3 (A),2020-02-23,Rep-10
+CUST-1495,HEAL-1495 Corp,Enterprise,Healthcare,Europe,Tier 1 (AAA),2023-01-30,Rep-24
+CUST-1496,RETA-1496 Corp,Small Business,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2021-01-21,Rep-15
+CUST-1497,TECH-1497 Corp,Small Business,Technology,North America,Tier 2 (AA),2021-02-12,Rep-04
+CUST-1498,MANU-1498 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2022-02-22,Rep-15
+CUST-1499,MANU-1499 Corp,Enterprise,Manufacturing,North America,Tier 2 (AA),2020-06-23,Rep-09
+CUST-1500,TECH-1500 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-02-02,Rep-23
+CUST-1501,FINA-1501 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2021-07-08,Rep-21
+CUST-1502,MANU-1502 Corp,Small Business,Manufacturing,Europe,Tier 1 (AAA),2020-11-26,Rep-08
+CUST-1503,FINA-1503 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-10-05,Rep-08
+CUST-1504,TECH-1504 Corp,Enterprise,Technology,North America,Tier 2 (AA),2023-01-07,Rep-23
+CUST-1505,RETA-1505 Corp,Mid-Market,Retail & Consumer,Europe,Tier 1 (AAA),2021-08-30,Rep-20
+CUST-1506,TECH-1506 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2023-01-18,Rep-12
+CUST-1507,MANU-1507 Corp,Small Business,Manufacturing,Europe,Tier 1 (AAA),2023-09-24,Rep-11
+CUST-1508,RETA-1508 Corp,Mid-Market,Retail & Consumer,Latin America,Tier 1 (AAA),2021-05-05,Rep-01
+CUST-1509,TECH-1509 Corp,Small Business,Technology,North America,Tier 2 (AA),2021-07-12,Rep-09
+CUST-1510,RETA-1510 Corp,Mid-Market,Retail & Consumer,Europe,Tier 2 (AA),2020-12-26,Rep-11
+CUST-1511,FINA-1511 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2022-01-05,Rep-21
+CUST-1512,RETA-1512 Corp,Mid-Market,Retail & Consumer,Latin America,Tier 3 (A),2021-12-14,Rep-14
+CUST-1513,TECH-1513 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-05-07,Rep-11
+CUST-1514,RETA-1514 Corp,Enterprise,Retail & Consumer,Europe,Tier 2 (AA),2022-05-12,Rep-12
+CUST-1515,RETA-1515 Corp,Enterprise,Retail & Consumer,Latin America,Tier 4 (BBB),2023-01-18,Rep-12
+CUST-1516,HEAL-1516 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2022-06-04,Rep-18
+CUST-1517,MANU-1517 Corp,Enterprise,Manufacturing,Latin America,Tier 3 (A),2023-10-09,Rep-17
+CUST-1518,RETA-1518 Corp,Mid-Market,Retail & Consumer,Latin America,Tier 3 (A),2023-03-10,Rep-10
+CUST-1519,TECH-1519 Corp,Small Business,Technology,Europe,Tier 2 (AA),2022-11-28,Rep-17
+CUST-1520,MANU-1520 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2020-05-16,Rep-05
+CUST-1521,RETA-1521 Corp,Mid-Market,Retail & Consumer,North America,Tier 1 (AAA),2020-06-19,Rep-21
+CUST-1522,MANU-1522 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2022-02-28,Rep-05
+CUST-1523,MANU-1523 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2022-01-09,Rep-09
+CUST-1524,RETA-1524 Corp,Small Business,Retail & Consumer,North America,Tier 2 (AA),2021-08-23,Rep-07
+CUST-1525,MANU-1525 Corp,Mid-Market,Manufacturing,North America,Tier 3 (A),2023-10-14,Rep-14
+CUST-1526,FINA-1526 Corp,Small Business,Financial Services,Europe,Tier 2 (AA),2023-01-10,Rep-04
+CUST-1527,MANU-1527 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 4 (BBB),2023-07-13,Rep-11
+CUST-1528,RETA-1528 Corp,Enterprise,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2022-10-12,Rep-13
+CUST-1529,HEAL-1529 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2021-10-22,Rep-03
+CUST-1530,TECH-1530 Corp,Small Business,Technology,North America,Tier 2 (AA),2020-11-22,Rep-08
+CUST-1531,MANU-1531 Corp,Small Business,Manufacturing,North America,Tier 3 (A),2022-01-23,Rep-20
+CUST-1532,TECH-1532 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2022-07-12,Rep-14
+CUST-1533,RETA-1533 Corp,Enterprise,Retail & Consumer,North America,Tier 2 (AA),2021-12-07,Rep-15
+CUST-1534,FINA-1534 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2021-06-19,Rep-10
+CUST-1535,FINA-1535 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-09-19,Rep-23
+CUST-1536,FINA-1536 Corp,Mid-Market,Financial Services,Latin America,Tier 2 (AA),2021-11-30,Rep-22
+CUST-1537,TECH-1537 Corp,Small Business,Technology,North America,Tier 1 (AAA),2023-01-13,Rep-20
+CUST-1538,HEAL-1538 Corp,Enterprise,Healthcare,North America,Tier 4 (BBB),2022-11-27,Rep-19
+CUST-1539,MANU-1539 Corp,Small Business,Manufacturing,Europe,Tier 2 (AA),2020-11-01,Rep-05
+CUST-1540,TECH-1540 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2022-12-06,Rep-22
+CUST-1541,MANU-1541 Corp,Enterprise,Manufacturing,North America,Tier 2 (AA),2022-01-22,Rep-16
+CUST-1542,HEAL-1542 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2022-02-05,Rep-09
+CUST-1543,FINA-1543 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2021-03-11,Rep-15
+CUST-1544,TECH-1544 Corp,Small Business,Technology,Europe,Tier 2 (AA),2021-07-16,Rep-04
+CUST-1545,TECH-1545 Corp,Mid-Market,Technology,Latin America,Tier 1 (AAA),2023-05-06,Rep-01
+CUST-1546,MANU-1546 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2022-02-01,Rep-09
+CUST-1547,FINA-1547 Corp,Mid-Market,Financial Services,North America,Tier 4 (BBB),2023-09-22,Rep-17
+CUST-1548,RETA-1548 Corp,Mid-Market,Retail & Consumer,Europe,Tier 2 (AA),2022-08-20,Rep-15
+CUST-1549,RETA-1549 Corp,Mid-Market,Retail & Consumer,Europe,Tier 1 (AAA),2020-02-12,Rep-20
+CUST-1550,HEAL-1550 Corp,Small Business,Healthcare,North America,Tier 3 (A),2022-01-28,Rep-04
+CUST-1551,HEAL-1551 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2023-04-06,Rep-19
+CUST-1552,FINA-1552 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2023-06-17,Rep-03
+CUST-1553,MANU-1553 Corp,Enterprise,Manufacturing,Latin America,Tier 3 (A),2023-01-23,Rep-04
+CUST-1554,MANU-1554 Corp,Mid-Market,Manufacturing,Europe,Tier 2 (AA),2022-04-19,Rep-07
+CUST-1555,MANU-1555 Corp,Small Business,Manufacturing,North America,Tier 4 (BBB),2023-04-17,Rep-18
+CUST-1556,TECH-1556 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2020-11-26,Rep-05
+CUST-1557,FINA-1557 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2022-04-25,Rep-05
+CUST-1558,TECH-1558 Corp,Small Business,Technology,North America,Tier 2 (AA),2020-01-19,Rep-22
+CUST-1559,FINA-1559 Corp,Enterprise,Financial Services,North America,Tier 4 (BBB),2023-03-10,Rep-20
+CUST-1560,TECH-1560 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2022-01-29,Rep-20
+CUST-1561,FINA-1561 Corp,Mid-Market,Financial Services,North America,Tier 4 (BBB),2020-08-05,Rep-10
+CUST-1562,TECH-1562 Corp,Small Business,Technology,North America,Tier 2 (AA),2023-01-10,Rep-20
+CUST-1563,FINA-1563 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2022-02-16,Rep-02
+CUST-1564,TECH-1564 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2020-01-22,Rep-11
+CUST-1565,RETA-1565 Corp,Enterprise,Retail & Consumer,Europe,Tier 1 (AAA),2021-07-06,Rep-22
+CUST-1566,TECH-1566 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2023-08-25,Rep-02
+CUST-1567,HEAL-1567 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2023-10-07,Rep-16
+CUST-1568,TECH-1568 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2022-12-24,Rep-19
+CUST-1569,RETA-1569 Corp,Enterprise,Retail & Consumer,North America,Tier 2 (AA),2021-07-13,Rep-21
+CUST-1570,HEAL-1570 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2020-10-10,Rep-01
+CUST-1571,TECH-1571 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2023-01-01,Rep-13
+CUST-1572,TECH-1572 Corp,Small Business,Technology,Europe,Tier 2 (AA),2022-04-21,Rep-18
+CUST-1573,MANU-1573 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2021-01-01,Rep-15
+CUST-1574,FINA-1574 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 4 (BBB),2022-05-09,Rep-17
+CUST-1575,HEAL-1575 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2020-02-08,Rep-17
+CUST-1576,RETA-1576 Corp,Enterprise,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2022-01-06,Rep-14
+CUST-1577,TECH-1577 Corp,Enterprise,Technology,North America,Tier 2 (AA),2022-08-20,Rep-01
+CUST-1578,RETA-1578 Corp,Enterprise,Retail & Consumer,Europe,Tier 3 (A),2021-09-30,Rep-19
+CUST-1579,MANU-1579 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2022-05-19,Rep-01
+CUST-1580,TECH-1580 Corp,Small Business,Technology,North America,Tier 3 (A),2021-12-21,Rep-09
+CUST-1581,FINA-1581 Corp,Small Business,Financial Services,North America,Tier 3 (A),2022-05-14,Rep-22
+CUST-1582,MANU-1582 Corp,Enterprise,Manufacturing,Asia-Pacific,Tier 2 (AA),2020-12-28,Rep-06
+CUST-1583,HEAL-1583 Corp,Mid-Market,Healthcare,North America,Tier 4 (BBB),2020-04-01,Rep-18
+CUST-1584,FINA-1584 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2022-02-10,Rep-22
+CUST-1585,FINA-1585 Corp,Enterprise,Financial Services,Europe,Tier 3 (A),2023-05-15,Rep-01
+CUST-1586,HEAL-1586 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 1 (AAA),2022-11-27,Rep-21
+CUST-1587,TECH-1587 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-03-30,Rep-03
+CUST-1588,TECH-1588 Corp,Mid-Market,Technology,Asia-Pacific,Tier 1 (AAA),2020-07-14,Rep-12
+CUST-1589,FINA-1589 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2023-09-04,Rep-20
+CUST-1590,TECH-1590 Corp,Small Business,Technology,Asia-Pacific,Tier 3 (A),2021-09-13,Rep-10
+CUST-1591,TECH-1591 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-04-08,Rep-09
+CUST-1592,FINA-1592 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2020-09-17,Rep-10
+CUST-1593,FINA-1593 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 2 (AA),2022-06-13,Rep-22
+CUST-1594,FINA-1594 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2023-10-27,Rep-15
+CUST-1595,HEAL-1595 Corp,Mid-Market,Healthcare,Europe,Tier 3 (A),2021-04-29,Rep-06
+CUST-1596,FINA-1596 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-09-29,Rep-11
+CUST-1597,TECH-1597 Corp,Small Business,Technology,Europe,Tier 2 (AA),2020-04-24,Rep-04
+CUST-1598,FINA-1598 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2022-01-27,Rep-19
+CUST-1599,HEAL-1599 Corp,Small Business,Healthcare,North America,Tier 4 (BBB),2020-05-16,Rep-15
+CUST-1600,HEAL-1600 Corp,Small Business,Healthcare,Asia-Pacific,Tier 2 (AA),2022-09-28,Rep-01
+CUST-1601,FINA-1601 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-04-02,Rep-16
+CUST-1602,FINA-1602 Corp,Mid-Market,Financial Services,Latin America,Tier 4 (BBB),2020-10-21,Rep-24
+CUST-1603,FINA-1603 Corp,Enterprise,Financial Services,Europe,Tier 3 (A),2022-10-27,Rep-17
+CUST-1604,HEAL-1604 Corp,Small Business,Healthcare,Latin America,Tier 3 (A),2020-09-07,Rep-03
+CUST-1605,HEAL-1605 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2020-01-25,Rep-22
+CUST-1606,MANU-1606 Corp,Mid-Market,Manufacturing,Europe,Tier 3 (A),2020-12-01,Rep-09
+CUST-1607,MANU-1607 Corp,Mid-Market,Manufacturing,Europe,Tier 2 (AA),2020-12-04,Rep-19
+CUST-1608,FINA-1608 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-06-25,Rep-08
+CUST-1609,TECH-1609 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-06-01,Rep-12
+CUST-1610,MANU-1610 Corp,Small Business,Manufacturing,North America,Tier 2 (AA),2022-12-08,Rep-13
+CUST-1611,RETA-1611 Corp,Mid-Market,Retail & Consumer,Europe,Tier 1 (AAA),2020-08-08,Rep-10
+CUST-1612,FINA-1612 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2020-02-28,Rep-23
+CUST-1613,HEAL-1613 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2021-09-10,Rep-11
+CUST-1614,FINA-1614 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2020-11-12,Rep-24
+CUST-1615,MANU-1615 Corp,Enterprise,Manufacturing,Europe,Tier 2 (AA),2023-10-23,Rep-13
+CUST-1616,MANU-1616 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2023-05-19,Rep-12
+CUST-1617,TECH-1617 Corp,Enterprise,Technology,Europe,Tier 3 (A),2022-07-13,Rep-17
+CUST-1618,FINA-1618 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2021-05-04,Rep-05
+CUST-1619,FINA-1619 Corp,Small Business,Financial Services,Europe,Tier 2 (AA),2020-09-23,Rep-22
+CUST-1620,TECH-1620 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2021-01-20,Rep-12
+CUST-1621,HEAL-1621 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2023-04-16,Rep-12
+CUST-1622,RETA-1622 Corp,Mid-Market,Retail & Consumer,North America,Tier 2 (AA),2020-03-02,Rep-06
+CUST-1623,HEAL-1623 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2022-09-16,Rep-13
+CUST-1624,TECH-1624 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2022-06-21,Rep-22
+CUST-1625,MANU-1625 Corp,Small Business,Manufacturing,North America,Tier 2 (AA),2022-06-05,Rep-06
+CUST-1626,HEAL-1626 Corp,Small Business,Healthcare,Asia-Pacific,Tier 1 (AAA),2021-01-26,Rep-01
+CUST-1627,FINA-1627 Corp,Mid-Market,Financial Services,Europe,Tier 3 (A),2022-04-07,Rep-24
+CUST-1628,FINA-1628 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-03-30,Rep-08
+CUST-1629,HEAL-1629 Corp,Enterprise,Healthcare,Europe,Tier 3 (A),2022-06-11,Rep-06
+CUST-1630,FINA-1630 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2021-04-24,Rep-10
+CUST-1631,HEAL-1631 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2022-02-19,Rep-17
+CUST-1632,MANU-1632 Corp,Small Business,Manufacturing,Latin America,Tier 2 (AA),2021-05-22,Rep-16
+CUST-1633,TECH-1633 Corp,Enterprise,Technology,North America,Tier 3 (A),2022-09-18,Rep-04
+CUST-1634,HEAL-1634 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2023-05-16,Rep-05
+CUST-1635,HEAL-1635 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 4 (BBB),2021-01-17,Rep-19
+CUST-1636,FINA-1636 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2020-07-29,Rep-23
+CUST-1637,FINA-1637 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2023-08-31,Rep-05
+CUST-1638,HEAL-1638 Corp,Small Business,Healthcare,Latin America,Tier 3 (A),2022-11-03,Rep-11
+CUST-1639,FINA-1639 Corp,Small Business,Financial Services,Latin America,Tier 3 (A),2022-06-06,Rep-23
+CUST-1640,TECH-1640 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2022-05-06,Rep-09
+CUST-1641,HEAL-1641 Corp,Mid-Market,Healthcare,North America,Tier 3 (A),2020-07-11,Rep-15
+CUST-1642,HEAL-1642 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2021-03-05,Rep-14
+CUST-1643,TECH-1643 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-07-25,Rep-12
+CUST-1644,RETA-1644 Corp,Mid-Market,Retail & Consumer,Europe,Tier 2 (AA),2020-03-30,Rep-13
+CUST-1645,TECH-1645 Corp,Mid-Market,Technology,North America,Tier 3 (A),2022-05-25,Rep-08
+CUST-1646,TECH-1646 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2021-10-01,Rep-20
+CUST-1647,HEAL-1647 Corp,Small Business,Healthcare,Asia-Pacific,Tier 1 (AAA),2022-12-04,Rep-15
+CUST-1648,MANU-1648 Corp,Mid-Market,Manufacturing,Europe,Tier 3 (A),2023-01-01,Rep-03
+CUST-1649,HEAL-1649 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2022-04-04,Rep-08
+CUST-1650,TECH-1650 Corp,Small Business,Technology,Latin America,Tier 1 (AAA),2023-08-25,Rep-23
+CUST-1651,MANU-1651 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2021-05-08,Rep-11
+CUST-1652,TECH-1652 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2020-02-19,Rep-06
+CUST-1653,FINA-1653 Corp,Enterprise,Financial Services,Latin America,Tier 2 (AA),2021-08-06,Rep-08
+CUST-1654,TECH-1654 Corp,Enterprise,Technology,North America,Tier 2 (AA),2023-01-21,Rep-24
+CUST-1655,FINA-1655 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-02-05,Rep-05
+CUST-1656,MANU-1656 Corp,Small Business,Manufacturing,North America,Tier 1 (AAA),2023-10-31,Rep-23
+CUST-1657,HEAL-1657 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2023-04-28,Rep-05
+CUST-1658,FINA-1658 Corp,Small Business,Financial Services,Europe,Tier 1 (AAA),2023-02-09,Rep-23
+CUST-1659,FINA-1659 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2020-04-15,Rep-21
+CUST-1660,HEAL-1660 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2023-10-26,Rep-12
+CUST-1661,FINA-1661 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2021-11-09,Rep-13
+CUST-1662,FINA-1662 Corp,Small Business,Financial Services,Latin America,Tier 1 (AAA),2023-01-10,Rep-13
+CUST-1663,FINA-1663 Corp,Mid-Market,Financial Services,Europe,Tier 3 (A),2023-09-12,Rep-03
+CUST-1664,HEAL-1664 Corp,Enterprise,Healthcare,Asia-Pacific,Tier 2 (AA),2020-08-11,Rep-08
+CUST-1665,TECH-1665 Corp,Small Business,Technology,North America,Tier 2 (AA),2022-10-13,Rep-14
+CUST-1666,HEAL-1666 Corp,Enterprise,Healthcare,Europe,Tier 1 (AAA),2023-04-25,Rep-06
+CUST-1667,TECH-1667 Corp,Small Business,Technology,North America,Tier 3 (A),2023-06-14,Rep-22
+CUST-1668,RETA-1668 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 4 (BBB),2020-03-12,Rep-06
+CUST-1669,FINA-1669 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2023-04-15,Rep-05
+CUST-1670,TECH-1670 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-01-31,Rep-20
+CUST-1671,TECH-1671 Corp,Mid-Market,Technology,North America,Tier 3 (A),2020-10-02,Rep-20
+CUST-1672,FINA-1672 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 1 (AAA),2023-07-20,Rep-24
+CUST-1673,TECH-1673 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2020-11-10,Rep-15
+CUST-1674,FINA-1674 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 3 (A),2023-07-19,Rep-23
+CUST-1675,HEAL-1675 Corp,Mid-Market,Healthcare,Europe,Tier 4 (BBB),2021-08-30,Rep-18
+CUST-1676,TECH-1676 Corp,Small Business,Technology,North America,Tier 1 (AAA),2021-10-22,Rep-16
+CUST-1677,HEAL-1677 Corp,Mid-Market,Healthcare,North America,Tier 3 (A),2021-12-14,Rep-12
+CUST-1678,TECH-1678 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2020-11-03,Rep-09
+CUST-1679,TECH-1679 Corp,Enterprise,Technology,Asia-Pacific,Tier 2 (AA),2023-07-12,Rep-15
+CUST-1680,RETA-1680 Corp,Small Business,Retail & Consumer,Europe,Tier 1 (AAA),2023-04-28,Rep-12
+CUST-1681,FINA-1681 Corp,Small Business,Financial Services,North America,Tier 3 (A),2022-05-12,Rep-17
+CUST-1682,MANU-1682 Corp,Mid-Market,Manufacturing,North America,Tier 3 (A),2021-01-24,Rep-22
+CUST-1683,MANU-1683 Corp,Enterprise,Manufacturing,North America,Tier 2 (AA),2023-06-10,Rep-17
+CUST-1684,TECH-1684 Corp,Mid-Market,Technology,North America,Tier 4 (BBB),2022-12-22,Rep-08
+CUST-1685,HEAL-1685 Corp,Mid-Market,Healthcare,Latin America,Tier 2 (AA),2022-11-17,Rep-02
+CUST-1686,FINA-1686 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2020-06-25,Rep-11
+CUST-1687,HEAL-1687 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2023-06-05,Rep-23
+CUST-1688,TECH-1688 Corp,Small Business,Technology,North America,Tier 1 (AAA),2022-03-06,Rep-01
+CUST-1689,FINA-1689 Corp,Small Business,Financial Services,North America,Tier 4 (BBB),2021-04-16,Rep-16
+CUST-1690,TECH-1690 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2020-07-02,Rep-12
+CUST-1691,FINA-1691 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2023-06-27,Rep-24
+CUST-1692,MANU-1692 Corp,Mid-Market,Manufacturing,Europe,Tier 3 (A),2022-10-30,Rep-19
+CUST-1693,MANU-1693 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 1 (AAA),2020-09-27,Rep-03
+CUST-1694,FINA-1694 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-12-16,Rep-18
+CUST-1695,FINA-1695 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2020-05-08,Rep-22
+CUST-1696,FINA-1696 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2021-09-19,Rep-22
+CUST-1697,TECH-1697 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2020-09-06,Rep-14
+CUST-1698,TECH-1698 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2020-03-10,Rep-17
+CUST-1699,TECH-1699 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-10-22,Rep-03
+CUST-1700,MANU-1700 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2020-12-10,Rep-20
+CUST-1701,MANU-1701 Corp,Small Business,Manufacturing,North America,Tier 1 (AAA),2023-06-14,Rep-21
+CUST-1702,RETA-1702 Corp,Enterprise,Retail & Consumer,Europe,Tier 1 (AAA),2021-08-07,Rep-16
+CUST-1703,HEAL-1703 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 3 (A),2020-04-17,Rep-12
+CUST-1704,HEAL-1704 Corp,Small Business,Healthcare,Asia-Pacific,Tier 2 (AA),2022-06-11,Rep-22
+CUST-1705,TECH-1705 Corp,Small Business,Technology,North America,Tier 3 (A),2021-11-04,Rep-23
+CUST-1706,FINA-1706 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2020-04-20,Rep-01
+CUST-1707,FINA-1707 Corp,Mid-Market,Financial Services,North America,Tier 3 (A),2023-05-17,Rep-22
+CUST-1708,FINA-1708 Corp,Mid-Market,Financial Services,Europe,Tier 3 (A),2021-06-12,Rep-22
+CUST-1709,FINA-1709 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2022-02-12,Rep-03
+CUST-1710,MANU-1710 Corp,Mid-Market,Manufacturing,North America,Tier 3 (A),2020-09-25,Rep-17
+CUST-1711,TECH-1711 Corp,Enterprise,Technology,North America,Tier 2 (AA),2021-07-23,Rep-17
+CUST-1712,RETA-1712 Corp,Mid-Market,Retail & Consumer,North America,Tier 1 (AAA),2021-01-24,Rep-06
+CUST-1713,FINA-1713 Corp,Mid-Market,Financial Services,Europe,Tier 3 (A),2020-01-13,Rep-07
+CUST-1714,HEAL-1714 Corp,Enterprise,Healthcare,North America,Tier 4 (BBB),2022-09-30,Rep-03
+CUST-1715,HEAL-1715 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2021-03-07,Rep-12
+CUST-1716,FINA-1716 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2022-12-24,Rep-03
+CUST-1717,HEAL-1717 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2022-05-29,Rep-15
+CUST-1718,TECH-1718 Corp,Enterprise,Technology,North America,Tier 3 (A),2023-04-28,Rep-04
+CUST-1719,MANU-1719 Corp,Enterprise,Manufacturing,North America,Tier 2 (AA),2022-01-27,Rep-08
+CUST-1720,RETA-1720 Corp,Small Business,Retail & Consumer,Europe,Tier 1 (AAA),2021-08-05,Rep-24
+CUST-1721,FINA-1721 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2022-03-08,Rep-10
+CUST-1722,MANU-1722 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2020-06-19,Rep-13
+CUST-1723,RETA-1723 Corp,Enterprise,Retail & Consumer,Europe,Tier 1 (AAA),2021-09-11,Rep-04
+CUST-1724,FINA-1724 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-08-30,Rep-09
+CUST-1725,FINA-1725 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2022-04-14,Rep-10
+CUST-1726,RETA-1726 Corp,Small Business,Retail & Consumer,North America,Tier 1 (AAA),2022-03-19,Rep-19
+CUST-1727,MANU-1727 Corp,Mid-Market,Manufacturing,North America,Tier 4 (BBB),2020-05-29,Rep-16
+CUST-1728,MANU-1728 Corp,Mid-Market,Manufacturing,Europe,Tier 4 (BBB),2020-03-16,Rep-23
+CUST-1729,FINA-1729 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2021-12-14,Rep-19
+CUST-1730,FINA-1730 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 3 (A),2020-10-07,Rep-02
+CUST-1731,MANU-1731 Corp,Mid-Market,Manufacturing,North America,Tier 3 (A),2022-10-13,Rep-14
+CUST-1732,TECH-1732 Corp,Enterprise,Technology,North America,Tier 2 (AA),2020-04-25,Rep-16
+CUST-1733,TECH-1733 Corp,Enterprise,Technology,North America,Tier 3 (A),2021-11-15,Rep-07
+CUST-1734,MANU-1734 Corp,Enterprise,Manufacturing,North America,Tier 3 (A),2022-03-20,Rep-18
+CUST-1735,HEAL-1735 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2022-10-09,Rep-16
+CUST-1736,FINA-1736 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2020-03-16,Rep-13
+CUST-1737,TECH-1737 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2021-08-13,Rep-08
+CUST-1738,FINA-1738 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2020-01-12,Rep-13
+CUST-1739,TECH-1739 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2022-09-07,Rep-08
+CUST-1740,FINA-1740 Corp,Enterprise,Financial Services,Latin America,Tier 1 (AAA),2020-03-16,Rep-05
+CUST-1741,MANU-1741 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2023-02-21,Rep-05
+CUST-1742,HEAL-1742 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2021-04-05,Rep-10
+CUST-1743,RETA-1743 Corp,Mid-Market,Retail & Consumer,North America,Tier 2 (AA),2020-10-07,Rep-06
+CUST-1744,TECH-1744 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-08-07,Rep-04
+CUST-1745,MANU-1745 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2020-08-08,Rep-04
+CUST-1746,TECH-1746 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2021-08-04,Rep-20
+CUST-1747,HEAL-1747 Corp,Small Business,Healthcare,Europe,Tier 3 (A),2022-07-04,Rep-23
+CUST-1748,HEAL-1748 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2021-08-11,Rep-10
+CUST-1749,TECH-1749 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2023-03-28,Rep-03
+CUST-1750,TECH-1750 Corp,Small Business,Technology,Europe,Tier 2 (AA),2020-07-05,Rep-20
+CUST-1751,HEAL-1751 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2020-01-16,Rep-14
+CUST-1752,TECH-1752 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2020-12-06,Rep-04
+CUST-1753,TECH-1753 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2023-10-03,Rep-01
+CUST-1754,MANU-1754 Corp,Small Business,Manufacturing,Europe,Tier 2 (AA),2023-02-05,Rep-19
+CUST-1755,HEAL-1755 Corp,Small Business,Healthcare,North America,Tier 3 (A),2020-01-12,Rep-03
+CUST-1756,HEAL-1756 Corp,Mid-Market,Healthcare,Europe,Tier 2 (AA),2023-09-01,Rep-22
+CUST-1757,MANU-1757 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2021-03-19,Rep-10
+CUST-1758,HEAL-1758 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2021-02-24,Rep-22
+CUST-1759,MANU-1759 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2020-12-01,Rep-02
+CUST-1760,FINA-1760 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2020-07-19,Rep-10
+CUST-1761,TECH-1761 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2020-11-16,Rep-19
+CUST-1762,TECH-1762 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2023-01-06,Rep-02
+CUST-1763,HEAL-1763 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2020-10-06,Rep-21
+CUST-1764,HEAL-1764 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2023-02-25,Rep-12
+CUST-1765,RETA-1765 Corp,Small Business,Retail & Consumer,North America,Tier 2 (AA),2021-09-30,Rep-16
+CUST-1766,FINA-1766 Corp,Mid-Market,Financial Services,Latin America,Tier 3 (A),2020-05-27,Rep-18
+CUST-1767,MANU-1767 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2022-08-22,Rep-04
+CUST-1768,FINA-1768 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2021-01-30,Rep-16
+CUST-1769,TECH-1769 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2021-11-11,Rep-22
+CUST-1770,TECH-1770 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2021-09-07,Rep-14
+CUST-1771,HEAL-1771 Corp,Enterprise,Healthcare,North America,Tier 1 (AAA),2020-03-23,Rep-14
+CUST-1772,MANU-1772 Corp,Mid-Market,Manufacturing,North America,Tier 4 (BBB),2020-10-17,Rep-05
+CUST-1773,FINA-1773 Corp,Enterprise,Financial Services,Europe,Tier 1 (AAA),2022-04-16,Rep-08
+CUST-1774,TECH-1774 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-07-19,Rep-24
+CUST-1775,TECH-1775 Corp,Enterprise,Technology,North America,Tier 3 (A),2020-07-11,Rep-21
+CUST-1776,HEAL-1776 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2020-01-29,Rep-16
+CUST-1777,TECH-1777 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2023-05-12,Rep-20
+CUST-1778,MANU-1778 Corp,Small Business,Manufacturing,Europe,Tier 2 (AA),2023-01-30,Rep-13
+CUST-1779,MANU-1779 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 1 (AAA),2020-04-20,Rep-21
+CUST-1780,TECH-1780 Corp,Enterprise,Technology,Asia-Pacific,Tier 2 (AA),2022-05-07,Rep-16
+CUST-1781,TECH-1781 Corp,Mid-Market,Technology,North America,Tier 3 (A),2021-03-15,Rep-19
+CUST-1782,FINA-1782 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-10-27,Rep-10
+CUST-1783,FINA-1783 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 2 (AA),2022-07-30,Rep-20
+CUST-1784,MANU-1784 Corp,Mid-Market,Manufacturing,North America,Tier 3 (A),2020-02-21,Rep-22
+CUST-1785,RETA-1785 Corp,Enterprise,Retail & Consumer,Asia-Pacific,Tier 4 (BBB),2021-10-13,Rep-11
+CUST-1786,HEAL-1786 Corp,Mid-Market,Healthcare,Latin America,Tier 3 (A),2023-07-16,Rep-22
+CUST-1787,HEAL-1787 Corp,Small Business,Healthcare,North America,Tier 4 (BBB),2020-01-07,Rep-14
+CUST-1788,HEAL-1788 Corp,Mid-Market,Healthcare,North America,Tier 3 (A),2022-01-16,Rep-15
+CUST-1789,FINA-1789 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2022-02-20,Rep-14
+CUST-1790,TECH-1790 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-05-14,Rep-13
+CUST-1791,FINA-1791 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2023-04-19,Rep-22
+CUST-1792,MANU-1792 Corp,Enterprise,Manufacturing,Europe,Tier 4 (BBB),2023-07-25,Rep-17
+CUST-1793,FINA-1793 Corp,Enterprise,Financial Services,Latin America,Tier 2 (AA),2021-01-15,Rep-18
+CUST-1794,TECH-1794 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-07-18,Rep-04
+CUST-1795,TECH-1795 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2021-04-22,Rep-18
+CUST-1796,FINA-1796 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 3 (A),2022-01-25,Rep-11
+CUST-1797,FINA-1797 Corp,Small Business,Financial Services,Europe,Tier 1 (AAA),2021-06-11,Rep-03
+CUST-1798,HEAL-1798 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2020-10-30,Rep-14
+CUST-1799,MANU-1799 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 1 (AAA),2023-05-11,Rep-02
+CUST-1800,MANU-1800 Corp,Small Business,Manufacturing,Europe,Tier 1 (AAA),2020-09-09,Rep-01
+CUST-1801,FINA-1801 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2022-12-03,Rep-08
+CUST-1802,FINA-1802 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 4 (BBB),2020-02-02,Rep-10
+CUST-1803,TECH-1803 Corp,Small Business,Technology,Asia-Pacific,Tier 4 (BBB),2021-02-08,Rep-12
+CUST-1804,TECH-1804 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2020-06-20,Rep-22
+CUST-1805,FINA-1805 Corp,Enterprise,Financial Services,North America,Tier 3 (A),2023-04-24,Rep-01
+CUST-1806,FINA-1806 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 1 (AAA),2023-05-04,Rep-17
+CUST-1807,TECH-1807 Corp,Enterprise,Technology,Europe,Tier 4 (BBB),2022-11-14,Rep-23
+CUST-1808,RETA-1808 Corp,Mid-Market,Retail & Consumer,Europe,Tier 2 (AA),2020-08-11,Rep-19
+CUST-1809,TECH-1809 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2021-12-27,Rep-05
+CUST-1810,TECH-1810 Corp,Mid-Market,Technology,Asia-Pacific,Tier 2 (AA),2022-07-13,Rep-15
+CUST-1811,TECH-1811 Corp,Small Business,Technology,North America,Tier 2 (AA),2021-09-14,Rep-06
+CUST-1812,FINA-1812 Corp,Mid-Market,Financial Services,Europe,Tier 3 (A),2020-12-05,Rep-15
+CUST-1813,TECH-1813 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2023-09-18,Rep-03
+CUST-1814,RETA-1814 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2020-01-15,Rep-07
+CUST-1815,FINA-1815 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2020-01-01,Rep-10
+CUST-1816,TECH-1816 Corp,Small Business,Technology,Latin America,Tier 1 (AAA),2020-01-12,Rep-17
+CUST-1817,HEAL-1817 Corp,Small Business,Healthcare,Asia-Pacific,Tier 1 (AAA),2020-06-19,Rep-06
+CUST-1818,TECH-1818 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2021-10-19,Rep-19
+CUST-1819,FINA-1819 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2022-01-01,Rep-01
+CUST-1820,TECH-1820 Corp,Small Business,Technology,North America,Tier 4 (BBB),2021-08-28,Rep-13
+CUST-1821,TECH-1821 Corp,Enterprise,Technology,North America,Tier 3 (A),2022-12-25,Rep-10
+CUST-1822,RETA-1822 Corp,Mid-Market,Retail & Consumer,Europe,Tier 1 (AAA),2023-02-11,Rep-15
+CUST-1823,RETA-1823 Corp,Small Business,Retail & Consumer,North America,Tier 1 (AAA),2022-01-19,Rep-14
+CUST-1824,FINA-1824 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 2 (AA),2022-06-05,Rep-22
+CUST-1825,FINA-1825 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2021-11-29,Rep-01
+CUST-1826,MANU-1826 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 1 (AAA),2021-02-13,Rep-03
+CUST-1827,FINA-1827 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2023-09-28,Rep-22
+CUST-1828,MANU-1828 Corp,Mid-Market,Manufacturing,North America,Tier 4 (BBB),2022-04-19,Rep-12
+CUST-1829,FINA-1829 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2020-03-05,Rep-06
+CUST-1830,FINA-1830 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2023-03-27,Rep-13
+CUST-1831,TECH-1831 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2022-07-07,Rep-13
+CUST-1832,MANU-1832 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2023-03-04,Rep-18
+CUST-1833,FINA-1833 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2021-06-16,Rep-08
+CUST-1834,TECH-1834 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2021-09-20,Rep-17
+CUST-1835,FINA-1835 Corp,Enterprise,Financial Services,Europe,Tier 2 (AA),2023-09-16,Rep-06
+CUST-1836,TECH-1836 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2023-10-10,Rep-01
+CUST-1837,HEAL-1837 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2022-11-24,Rep-01
+CUST-1838,MANU-1838 Corp,Enterprise,Manufacturing,North America,Tier 2 (AA),2020-12-10,Rep-16
+CUST-1839,FINA-1839 Corp,Small Business,Financial Services,Europe,Tier 2 (AA),2022-04-20,Rep-01
+CUST-1840,TECH-1840 Corp,Enterprise,Technology,North America,Tier 3 (A),2020-12-10,Rep-13
+CUST-1841,HEAL-1841 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2021-07-04,Rep-10
+CUST-1842,HEAL-1842 Corp,Small Business,Healthcare,Asia-Pacific,Tier 1 (AAA),2021-01-15,Rep-09
+CUST-1843,MANU-1843 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2020-06-02,Rep-04
+CUST-1844,HEAL-1844 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2023-07-08,Rep-20
+CUST-1845,MANU-1845 Corp,Small Business,Manufacturing,Asia-Pacific,Tier 1 (AAA),2023-09-15,Rep-09
+CUST-1846,TECH-1846 Corp,Enterprise,Technology,Asia-Pacific,Tier 3 (A),2023-02-14,Rep-11
+CUST-1847,MANU-1847 Corp,Enterprise,Manufacturing,North America,Tier 2 (AA),2023-07-15,Rep-05
+CUST-1848,MANU-1848 Corp,Small Business,Manufacturing,North America,Tier 1 (AAA),2021-07-25,Rep-23
+CUST-1849,TECH-1849 Corp,Small Business,Technology,Europe,Tier 1 (AAA),2020-06-27,Rep-05
+CUST-1850,RETA-1850 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2020-07-27,Rep-13
+CUST-1851,HEAL-1851 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2021-11-28,Rep-03
+CUST-1852,HEAL-1852 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2022-08-13,Rep-19
+CUST-1853,MANU-1853 Corp,Small Business,Manufacturing,Europe,Tier 3 (A),2022-11-04,Rep-12
+CUST-1854,TECH-1854 Corp,Small Business,Technology,Asia-Pacific,Tier 4 (BBB),2021-04-11,Rep-17
+CUST-1855,TECH-1855 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-08-17,Rep-10
+CUST-1856,MANU-1856 Corp,Small Business,Manufacturing,Europe,Tier 3 (A),2021-07-01,Rep-06
+CUST-1857,HEAL-1857 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2021-11-16,Rep-24
+CUST-1858,FINA-1858 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2023-01-03,Rep-06
+CUST-1859,TECH-1859 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2023-05-30,Rep-08
+CUST-1860,MANU-1860 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 3 (A),2021-10-30,Rep-08
+CUST-1861,MANU-1861 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2021-09-07,Rep-07
+CUST-1862,MANU-1862 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2023-02-20,Rep-11
+CUST-1863,FINA-1863 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2021-01-17,Rep-17
+CUST-1864,MANU-1864 Corp,Small Business,Manufacturing,Europe,Tier 2 (AA),2021-09-02,Rep-20
+CUST-1865,RETA-1865 Corp,Small Business,Retail & Consumer,Europe,Tier 1 (AAA),2022-06-10,Rep-24
+CUST-1866,FINA-1866 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2023-01-07,Rep-06
+CUST-1867,TECH-1867 Corp,Small Business,Technology,North America,Tier 2 (AA),2021-12-02,Rep-15
+CUST-1868,RETA-1868 Corp,Enterprise,Retail & Consumer,Asia-Pacific,Tier 2 (AA),2023-07-03,Rep-20
+CUST-1869,FINA-1869 Corp,Small Business,Financial Services,Europe,Tier 1 (AAA),2022-06-07,Rep-02
+CUST-1870,TECH-1870 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-07-09,Rep-06
+CUST-1871,FINA-1871 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2023-01-22,Rep-20
+CUST-1872,TECH-1872 Corp,Small Business,Technology,North America,Tier 3 (A),2021-09-25,Rep-17
+CUST-1873,TECH-1873 Corp,Mid-Market,Technology,North America,Tier 4 (BBB),2022-05-11,Rep-06
+CUST-1874,TECH-1874 Corp,Small Business,Technology,North America,Tier 1 (AAA),2022-03-29,Rep-09
+CUST-1875,MANU-1875 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2021-09-03,Rep-22
+CUST-1876,TECH-1876 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2022-05-27,Rep-01
+CUST-1877,FINA-1877 Corp,Small Business,Financial Services,Europe,Tier 1 (AAA),2023-07-07,Rep-18
+CUST-1878,HEAL-1878 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2020-08-15,Rep-06
+CUST-1879,MANU-1879 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2021-09-16,Rep-13
+CUST-1880,HEAL-1880 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2020-07-07,Rep-10
+CUST-1881,HEAL-1881 Corp,Small Business,Healthcare,Asia-Pacific,Tier 1 (AAA),2022-05-15,Rep-04
+CUST-1882,RETA-1882 Corp,Mid-Market,Retail & Consumer,Latin America,Tier 3 (A),2021-04-14,Rep-01
+CUST-1883,MANU-1883 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 1 (AAA),2021-04-18,Rep-14
+CUST-1884,RETA-1884 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 1 (AAA),2023-05-06,Rep-20
+CUST-1885,FINA-1885 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-06-19,Rep-15
+CUST-1886,TECH-1886 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-07-27,Rep-22
+CUST-1887,HEAL-1887 Corp,Small Business,Healthcare,Latin America,Tier 2 (AA),2023-03-27,Rep-16
+CUST-1888,FINA-1888 Corp,Small Business,Financial Services,Europe,Tier 2 (AA),2023-05-15,Rep-14
+CUST-1889,TECH-1889 Corp,Small Business,Technology,Asia-Pacific,Tier 1 (AAA),2023-02-11,Rep-01
+CUST-1890,TECH-1890 Corp,Mid-Market,Technology,Asia-Pacific,Tier 4 (BBB),2020-08-06,Rep-21
+CUST-1891,MANU-1891 Corp,Enterprise,Manufacturing,Asia-Pacific,Tier 1 (AAA),2022-04-27,Rep-01
+CUST-1892,TECH-1892 Corp,Mid-Market,Technology,Asia-Pacific,Tier 3 (A),2021-11-23,Rep-07
+CUST-1893,RETA-1893 Corp,Small Business,Retail & Consumer,Europe,Tier 3 (A),2022-11-05,Rep-07
+CUST-1894,TECH-1894 Corp,Small Business,Technology,Europe,Tier 2 (AA),2021-10-13,Rep-06
+CUST-1895,HEAL-1895 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2022-12-17,Rep-06
+CUST-1896,TECH-1896 Corp,Enterprise,Technology,Asia-Pacific,Tier 4 (BBB),2021-04-05,Rep-07
+CUST-1897,HEAL-1897 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2021-07-20,Rep-05
+CUST-1898,TECH-1898 Corp,Small Business,Technology,North America,Tier 4 (BBB),2023-09-19,Rep-03
+CUST-1899,TECH-1899 Corp,Enterprise,Technology,Europe,Tier 4 (BBB),2021-08-05,Rep-03
+CUST-1900,RETA-1900 Corp,Mid-Market,Retail & Consumer,Asia-Pacific,Tier 3 (A),2020-09-26,Rep-20
+CUST-1901,TECH-1901 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2022-07-05,Rep-17
+CUST-1902,HEAL-1902 Corp,Small Business,Healthcare,North America,Tier 2 (AA),2020-02-25,Rep-16
+CUST-1903,MANU-1903 Corp,Mid-Market,Manufacturing,Europe,Tier 1 (AAA),2020-07-05,Rep-18
+CUST-1904,FINA-1904 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2023-05-23,Rep-22
+CUST-1905,MANU-1905 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2020-06-24,Rep-11
+CUST-1906,FINA-1906 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2021-08-31,Rep-17
+CUST-1907,FINA-1907 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2022-09-10,Rep-09
+CUST-1908,HEAL-1908 Corp,Enterprise,Healthcare,North America,Tier 2 (AA),2022-08-11,Rep-11
+CUST-1909,TECH-1909 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-07-01,Rep-18
+CUST-1910,HEAL-1910 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2022-11-03,Rep-17
+CUST-1911,FINA-1911 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2021-07-12,Rep-11
+CUST-1912,FINA-1912 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2020-09-03,Rep-19
+CUST-1913,HEAL-1913 Corp,Mid-Market,Healthcare,North America,Tier 1 (AAA),2020-12-03,Rep-21
+CUST-1914,HEAL-1914 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2021-08-10,Rep-17
+CUST-1915,MANU-1915 Corp,Small Business,Manufacturing,North America,Tier 3 (A),2023-08-24,Rep-04
+CUST-1916,HEAL-1916 Corp,Mid-Market,Healthcare,Latin America,Tier 3 (A),2023-04-27,Rep-22
+CUST-1917,FINA-1917 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2021-03-17,Rep-08
+CUST-1918,HEAL-1918 Corp,Mid-Market,Healthcare,Europe,Tier 1 (AAA),2023-06-10,Rep-14
+CUST-1919,TECH-1919 Corp,Enterprise,Technology,Europe,Tier 2 (AA),2020-10-27,Rep-20
+CUST-1920,HEAL-1920 Corp,Small Business,Healthcare,North America,Tier 4 (BBB),2021-02-01,Rep-12
+CUST-1921,FINA-1921 Corp,Small Business,Financial Services,Europe,Tier 2 (AA),2022-06-12,Rep-02
+CUST-1922,FINA-1922 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2022-01-15,Rep-09
+CUST-1923,FINA-1923 Corp,Mid-Market,Financial Services,North America,Tier 1 (AAA),2020-05-09,Rep-20
+CUST-1924,FINA-1924 Corp,Small Business,Financial Services,Asia-Pacific,Tier 2 (AA),2020-03-18,Rep-16
+CUST-1925,FINA-1925 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2023-10-11,Rep-22
+CUST-1926,HEAL-1926 Corp,Small Business,Healthcare,North America,Tier 1 (AAA),2022-12-30,Rep-16
+CUST-1927,MANU-1927 Corp,Enterprise,Manufacturing,Europe,Tier 1 (AAA),2021-10-08,Rep-05
+CUST-1928,TECH-1928 Corp,Mid-Market,Technology,North America,Tier 2 (AA),2023-08-09,Rep-09
+CUST-1929,TECH-1929 Corp,Enterprise,Technology,Europe,Tier 1 (AAA),2023-03-18,Rep-11
+CUST-1930,HEAL-1930 Corp,Small Business,Healthcare,Europe,Tier 1 (AAA),2022-11-03,Rep-10
+CUST-1931,TECH-1931 Corp,Mid-Market,Technology,Latin America,Tier 1 (AAA),2021-09-25,Rep-17
+CUST-1932,FINA-1932 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2021-05-30,Rep-10
+CUST-1933,HEAL-1933 Corp,Mid-Market,Healthcare,North America,Tier 4 (BBB),2020-07-15,Rep-19
+CUST-1934,HEAL-1934 Corp,Small Business,Healthcare,Asia-Pacific,Tier 1 (AAA),2020-11-02,Rep-11
+CUST-1935,FINA-1935 Corp,Mid-Market,Financial Services,Europe,Tier 2 (AA),2021-09-27,Rep-21
+CUST-1936,TECH-1936 Corp,Small Business,Technology,Europe,Tier 3 (A),2022-05-23,Rep-12
+CUST-1937,HEAL-1937 Corp,Small Business,Healthcare,Europe,Tier 3 (A),2020-08-23,Rep-18
+CUST-1938,FINA-1938 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2021-02-13,Rep-06
+CUST-1939,FINA-1939 Corp,Small Business,Financial Services,Asia-Pacific,Tier 3 (A),2021-01-12,Rep-06
+CUST-1940,FINA-1940 Corp,Small Business,Financial Services,Europe,Tier 1 (AAA),2021-12-12,Rep-21
+CUST-1941,TECH-1941 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2022-11-07,Rep-24
+CUST-1942,MANU-1942 Corp,Mid-Market,Manufacturing,Asia-Pacific,Tier 1 (AAA),2020-04-19,Rep-20
+CUST-1943,FINA-1943 Corp,Small Business,Financial Services,North America,Tier 3 (A),2020-02-26,Rep-20
+CUST-1944,HEAL-1944 Corp,Mid-Market,Healthcare,North America,Tier 2 (AA),2020-10-15,Rep-21
+CUST-1945,FINA-1945 Corp,Enterprise,Financial Services,North America,Tier 2 (AA),2021-03-10,Rep-18
+CUST-1946,FINA-1946 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-11-04,Rep-10
+CUST-1947,MANU-1947 Corp,Small Business,Manufacturing,North America,Tier 2 (AA),2023-03-30,Rep-15
+CUST-1948,MANU-1948 Corp,Mid-Market,Manufacturing,North America,Tier 2 (AA),2022-05-11,Rep-19
+CUST-1949,TECH-1949 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-06-29,Rep-21
+CUST-1950,FINA-1950 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2023-04-20,Rep-13
+CUST-1951,FINA-1951 Corp,Enterprise,Financial Services,North America,Tier 1 (AAA),2023-07-02,Rep-12
+CUST-1952,FINA-1952 Corp,Small Business,Financial Services,Asia-Pacific,Tier 3 (A),2022-08-29,Rep-02
+CUST-1953,MANU-1953 Corp,Mid-Market,Manufacturing,North America,Tier 1 (AAA),2023-03-20,Rep-08
+CUST-1954,TECH-1954 Corp,Small Business,Technology,Europe,Tier 2 (AA),2023-09-15,Rep-20
+CUST-1955,FINA-1955 Corp,Enterprise,Financial Services,Europe,Tier 1 (AAA),2021-09-30,Rep-07
+CUST-1956,FINA-1956 Corp,Mid-Market,Financial Services,Asia-Pacific,Tier 1 (AAA),2021-12-10,Rep-01
+CUST-1957,RETA-1957 Corp,Mid-Market,Retail & Consumer,North America,Tier 4 (BBB),2021-05-10,Rep-13
+CUST-1958,TECH-1958 Corp,Small Business,Technology,North America,Tier 1 (AAA),2023-03-13,Rep-04
+CUST-1959,FINA-1959 Corp,Small Business,Financial Services,Asia-Pacific,Tier 1 (AAA),2020-12-22,Rep-16
+CUST-1960,FINA-1960 Corp,Mid-Market,Financial Services,North America,Tier 2 (AA),2020-10-10,Rep-24
+CUST-1961,TECH-1961 Corp,Small Business,Technology,North America,Tier 2 (AA),2023-10-20,Rep-16
+CUST-1962,FINA-1962 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 2 (AA),2020-03-11,Rep-24
+CUST-1963,RETA-1963 Corp,Small Business,Retail & Consumer,Europe,Tier 1 (AAA),2021-10-16,Rep-06
+CUST-1964,TECH-1964 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2022-10-10,Rep-04
+CUST-1965,FINA-1965 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 2 (AA),2020-04-10,Rep-03
+CUST-1966,HEAL-1966 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2020-08-13,Rep-09
+CUST-1967,TECH-1967 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2022-11-17,Rep-10
+CUST-1968,TECH-1968 Corp,Enterprise,Technology,Asia-Pacific,Tier 1 (AAA),2022-05-13,Rep-17
+CUST-1969,HEAL-1969 Corp,Enterprise,Healthcare,North America,Tier 3 (A),2023-01-18,Rep-17
+CUST-1970,TECH-1970 Corp,Small Business,Technology,North America,Tier 1 (AAA),2022-04-15,Rep-07
+CUST-1971,TECH-1971 Corp,Small Business,Technology,North America,Tier 3 (A),2023-06-16,Rep-15
+CUST-1972,FINA-1972 Corp,Mid-Market,Financial Services,Latin America,Tier 3 (A),2021-01-14,Rep-16
+CUST-1973,FINA-1973 Corp,Small Business,Financial Services,Europe,Tier 4 (BBB),2021-04-22,Rep-12
+CUST-1974,HEAL-1974 Corp,Small Business,Healthcare,Europe,Tier 3 (A),2022-01-23,Rep-23
+CUST-1975,TECH-1975 Corp,Enterprise,Technology,North America,Tier 2 (AA),2022-12-03,Rep-23
+CUST-1976,MANU-1976 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2022-07-05,Rep-15
+CUST-1977,HEAL-1977 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2020-07-24,Rep-04
+CUST-1978,FINA-1978 Corp,Small Business,Financial Services,North America,Tier 1 (AAA),2021-03-03,Rep-21
+CUST-1979,FINA-1979 Corp,Small Business,Financial Services,North America,Tier 4 (BBB),2020-02-11,Rep-09
+CUST-1980,FINA-1980 Corp,Small Business,Financial Services,North America,Tier 2 (AA),2023-02-25,Rep-19
+CUST-1981,RETA-1981 Corp,Enterprise,Retail & Consumer,Europe,Tier 2 (AA),2022-11-19,Rep-21
+CUST-1982,TECH-1982 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2022-03-30,Rep-08
+CUST-1983,MANU-1983 Corp,Enterprise,Manufacturing,North America,Tier 1 (AAA),2022-10-12,Rep-01
+CUST-1984,RETA-1984 Corp,Small Business,Retail & Consumer,Europe,Tier 1 (AAA),2020-04-04,Rep-06
+CUST-1985,FINA-1985 Corp,Small Business,Financial Services,Asia-Pacific,Tier 4 (BBB),2020-03-20,Rep-24
+CUST-1986,FINA-1986 Corp,Enterprise,Financial Services,Latin America,Tier 3 (A),2021-09-23,Rep-21
+CUST-1987,TECH-1987 Corp,Mid-Market,Technology,Europe,Tier 2 (AA),2023-05-01,Rep-13
+CUST-1988,TECH-1988 Corp,Mid-Market,Technology,North America,Tier 1 (AAA),2021-09-30,Rep-13
+CUST-1989,FINA-1989 Corp,Mid-Market,Financial Services,Europe,Tier 1 (AAA),2023-04-22,Rep-23
+CUST-1990,TECH-1990 Corp,Mid-Market,Technology,Europe,Tier 1 (AAA),2020-07-19,Rep-17
+CUST-1991,HEAL-1991 Corp,Small Business,Healthcare,Europe,Tier 2 (AA),2020-02-11,Rep-20
+CUST-1992,FINA-1992 Corp,Enterprise,Financial Services,Asia-Pacific,Tier 2 (AA),2022-11-08,Rep-17
+CUST-1993,RETA-1993 Corp,Small Business,Retail & Consumer,North America,Tier 1 (AAA),2021-02-27,Rep-13
+CUST-1994,TECH-1994 Corp,Enterprise,Technology,North America,Tier 3 (A),2020-10-11,Rep-09
+CUST-1995,TECH-1995 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2021-12-23,Rep-12
+CUST-1996,MANU-1996 Corp,Small Business,Manufacturing,North America,Tier 1 (AAA),2021-10-02,Rep-15
+CUST-1997,TECH-1997 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2021-02-22,Rep-22
+CUST-1998,HEAL-1998 Corp,Mid-Market,Healthcare,Asia-Pacific,Tier 1 (AAA),2020-04-18,Rep-01
+CUST-1999,TECH-1999 Corp,Enterprise,Technology,North America,Tier 1 (AAA),2022-05-03,Rep-18
